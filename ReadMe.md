@@ -17,6 +17,8 @@ Please submit updates as public links to `.project` files when opening an issue.
 
 _I will update this project as much as possible, but I really appreciate everyone's contributions. The CODESYS environment has a vast set of tools, and it is physically impossible for me to know or use them all._
 
+_Current Environment: I am using **CODESYS V3.5 SP20 Patch 1 + (32-bit)**. Please provide projects adapted for this version if possible. In any case, we can find a way to exchange code via Discussions._
+
 ## ✅ Verification Procedure
 
 To ensure an object is suitable for this collection, follow these steps:
