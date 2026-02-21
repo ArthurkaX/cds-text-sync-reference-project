@@ -1,0 +1,8 @@
+Name;Version;Company;Namespace;IsPlaceholder
+3SLicense;0.0.0.0;3S - Smart Software Solutions GmbH;3SLicense;True
+Breakpoint Logging Functions;*;3S - Smart Software Solutions GmbH;Breakpoint Logging Functions;True
+CAA Device Diagnosis;3.5.20.0;CAA Technical Workgroup;CAA Device Diagnosis;True
+CAA Types Extern;3.5.13.0;CAA Technical Workgroup;CAA Types Extern;True
+IoStandard;3.5.17.0;System;IoStandard;True
+NetVarUdp;3.5.20.0;System;NetVarUdp;True
+Standard;3.5.18.0;System;Standard;True

@@ -1,0 +1,17 @@
+# CODESYS Sync local files
+_config.json
+_metadata.csv
+*.log
+*.tmp
+*.bak
+
+# CODESYS temporary and build files
+*.~u
+*.precompilecache
+*.opt
+*.bootinfo
+*.bootinfo_guids
+*.compileinfo
+*.simulation.bootinfo
+*.simulation.bootinfo_guids
+*.simulation.compileinfo
