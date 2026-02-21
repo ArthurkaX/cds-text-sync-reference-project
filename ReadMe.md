@@ -15,6 +15,8 @@ We welcome any examples of blocks that refuse to be automated. To add your examp
 
 Please submit updates as public links to `.project` files when opening an issue.
 
+_I will update this project as much as possible, but I really appreciate everyone's contributions. The CODESYS environment has a vast set of tools, and it is physically impossible for me to know or use them all._
+
 ## ✅ Verification Procedure
 
 To ensure an object is suitable for this collection, follow these steps:
