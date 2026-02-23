@@ -1,6 +1,4 @@
 # CODESYS Sync local files
-_config.json
-_metadata.csv
 *.log
 *.tmp
 *.bak

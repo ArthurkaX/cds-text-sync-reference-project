@@ -1,0 +1,234 @@
+<ExportFile>
+  <StructuredView Guid="{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}">
+<Single xml:space="preserve" Type="{3daac5e4-660e-42e4-9cea-3711b98bfb63}" Method="IArchivable">
+  <Null Name="Profile" />
+  <List2 Name="EntryList">
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">True</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+        <Single Name="ParentGuid" Type="System.Guid">80340b67-ae53-49fd-b78e-efaac9841b7f</Single>
+        <Single Name="Name" Type="string">Task Configuration</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">ae1de277-a207-4a28-9efb-456c06bd52f3</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639073622225135648</Single>
+      </Single>
+      <Single Name="Object" Type="{ae1de277-a207-4a28-9efb-456c06bd52f3}" Method="IArchivable">
+        <List Name="TaskConfigurationList" Type="{75fc8bb3-c744-4e99-b6eb-bb2796e19500}" />
+        <List Name="SystemEventList" Type="{7be1d5a4-d68c-4bc6-a7e5-e42a0ab42a09}" />
+        <Null Name="ExternalEventList" />
+        <Single Name="enum_guid" Type="System.Guid">f1450525-bbd6-53bd-b6fd-6b79e1212c56</Single>
+        <Single Name="jitter_distribution_guid" Type="System.Guid">a51a6dc0-bd6c-58d8-8968-945ce036b668</Single>
+        <Single Name="task_struct_guid" Type="System.Guid">635e8f5a-9569-5e97-9bc4-720b0f14c585</Single>
+        <Single Name="task_config_info_guid" Type="System.Guid">f52da4e6-75b6-52c7-9348-a24d552add09</Single>
+        <Single Name="task_global_vars_guid" Type="System.Guid">a3c13bce-8b79-54da-bd70-c366abe7ab20</Single>
+        <Single Name="setup_call_pou_guid" Type="System.Guid">4f219074-07f7-51e6-bd7b-fe5e6a4d2f1b</Single>
+        <Single Name="sys_setup_pou_guid" Type="System.Guid">4044d03c-6f65-531a-ba0c-736264a5d22f</Single>
+        <Single Name="profiler_global_vars_guid" Type="System.Guid">6c7def7b-c861-5cd6-949f-46aa4696c2f0</Single>
+        <Single Name="profiler_init_code_guid" Type="System.Guid">0440f073-3d91-536a-b078-3614b7077ab7</Single>
+        <Single Name="profiler_cycle_code_guid" Type="System.Guid">988a5094-ac1a-56e6-8202-49b9eecb8e81</Single>
+        <Single Name="profiler_fb_guid" Type="System.Guid">390824dd-e8c5-5618-8096-12ac798ec64b</Single>
+        <Single Name="profiler_method_reset_guid" Type="System.Guid">1ff98e84-3fc8-543f-bf4a-a819224d16a0</Single>
+        <Single Name="profiler_method_starttiming_guid" Type="System.Guid">3eab3386-1ed0-5c93-ba1d-3572609757a5</Single>
+        <Single Name="profiler_method_stoptiming_guid" Type="System.Guid">0b077226-6100-5f08-9ec3-effc3cb2bd75</Single>
+        <Single Name="profiler_iectaskgetprofiling_guid" Type="System.Guid">6d2fa645-24c4-526e-95c7-4c98f3dfbec4</Single>
+        <Null Name="alSysEventList" />
+        <List2 Name="alTaskGroups">
+          <Single Type="{609a42d4-f974-4041-8548-f80e229ca5ed}" Method="IArchivable">
+            <Single Name="Groupname" Type="string">IEC-Tasks</Single>
+            <Single Name="Core" Type="int">-2</Single>
+            <Single Name="DefaultGroup" Type="bool">True</Single>
+            <Single Name="Editable" Type="bool">False</Single>
+          </Single>
+        </List2>
+        <Single Name="sysevents_global_vars_guid" Type="System.Guid">f8c0e677-fbd9-5681-bd05-0f6f86f6e1b5</Single>
+        <Single Name="sysevents_functionsblock_guid" Type="System.Guid">a3d72614-7d6d-5e78-b028-ea09c4be8f5a</Single>
+        <Single Name="sysevents_fbinit_method_guid" Type="System.Guid">a3b97ea5-b146-5fd9-9408-db419373360a</Single>
+        <Single Name="sysevents_fbexit_method_guid" Type="System.Guid">1036e21b-c5bd-51a8-a395-b2749ce4e75c</Single>
+        <Single Name="sysevents_eventcallback_method_guid" Type="System.Guid">c15687b6-6abb-5de8-afaa-996ff0a13c64</Single>
+        <Single Name="sysevents_resetget_property_guid" Type="System.Guid">d8d2416a-dd32-5b20-b8f3-a3eb17b39825</Single>
+        <Array Name="parent_tasks" Type="System.Guid" />
+        <Single Name="device_app" Type="System.Guid">00000000-0000-0000-0000-000000000000</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">80340b67-ae53-49fd-b78e-efaac9841b7f</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">adc156b0-ea8d-4f41-a9bc-d146c7510612</Single>
+        <Single Name="ParentGuid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+        <Single Name="Name" Type="string">VISU_TASK</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">98a2708a-9b18-4f31-82ed-a1465b24fa2d</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639074102512275991</Single>
+      </Single>
+      <Single Name="Object" Type="{98a2708a-9b18-4f31-82ed-a1465b24fa2d}" Method="IArchivable">
+        <Single Name="AllowEmpty" Type="bool">False</Single>
+        <Single Name="Kindoftask" Type="{38cb1f21-e463-4240-9171-f74fb561a060}">Cyclic</Single>
+        <List Name="CustomParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="IntervalParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="EventParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="ExternalEventParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="FreewheelingParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <Single Name="Priority" Type="string">31</Single>
+        <Single Name="Watchdog" Type="{97c20fcf-2c50-4dbb-8faa-06ff4f1e4275}" Method="IArchivable">
+          <Single Name="Enabled" Type="bool">False</Single>
+          <Single Name="Time" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
+            <Single Name="Time" Type="string"></Single>
+            <Single Name="Unit" Type="string">ms</Single>
+          </Single>
+          <Single Name="Sensitivity" Type="string"></Single>
+        </Single>
+        <Single Name="Interval" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
+          <Single Name="Time" Type="string">100</Single>
+          <Single Name="Unit" Type="string">ms</Single>
+        </Single>
+        <Single Name="Event" Type="string"></Single>
+        <Single Name="ExternalEvent" Type="string"></Single>
+        <Single Name="TaskGuid" Type="System.Guid">ee4c5771-8f46-48e7-879b-94eae8feaa46</Single>
+        <Single Name="EventPOUGuid" Type="System.Guid">ded75db8-5cba-4921-a428-d0f3c9fd942e</Single>
+        <List Name="PouList" Type="{33f568bb-4a2c-48cb-a762-34cca3066d03}">
+          <Single Type="{f194d1ef-7376-42ce-a729-4a5485a97a46}" Method="IArchivable">
+            <Single Name="Name" Type="string">VisuElems.Visu_Prg</Single>
+            <Single Name="Comment" Type="string"></Single>
+          </Single>
+        </List>
+        <Single Name="Implicit" Type="bool">False</Single>
+        <Single Name="WithinSPSTimeSlicing" Type="bool">True</Single>
+        <Single Name="Core" Type="int">-1</Single>
+        <Single Name="Core2" Type="int">-1</Single>
+        <Single Name="TaskGroup" Type="string">IEC-Tasks</Single>
+        <Single Name="SynchTask" Type="string"></Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+        <Single Type="string">Task Configuration</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">4f3ff050-27bc-4606-a09b-7d496ee3d648</Single>
+        <Single Name="ParentGuid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+        <Single Name="Name" Type="string">Task</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">98a2708a-9b18-4f31-82ed-a1465b24fa2d</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639073666834458127</Single>
+      </Single>
+      <Single Name="Object" Type="{98a2708a-9b18-4f31-82ed-a1465b24fa2d}" Method="IArchivable">
+        <Single Name="AllowEmpty" Type="bool">False</Single>
+        <Single Name="Kindoftask" Type="{38cb1f21-e463-4240-9171-f74fb561a060}">Cyclic</Single>
+        <List Name="CustomParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="IntervalParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="EventParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="ExternalEventParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="FreewheelingParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <Single Name="Priority" Type="string">1</Single>
+        <Single Name="Watchdog" Type="{97c20fcf-2c50-4dbb-8faa-06ff4f1e4275}" Method="IArchivable">
+          <Single Name="Enabled" Type="bool">False</Single>
+          <Single Name="Time" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
+            <Single Name="Time" Type="string"></Single>
+            <Single Name="Unit" Type="string">ms</Single>
+          </Single>
+          <Single Name="Sensitivity" Type="string">1</Single>
+        </Single>
+        <Single Name="Interval" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
+          <Single Name="Time" Type="string">t#20ms</Single>
+          <Single Name="Unit" Type="string">ms</Single>
+        </Single>
+        <Single Name="Event" Type="string"></Single>
+        <Single Name="ExternalEvent" Type="string"></Single>
+        <Single Name="TaskGuid" Type="System.Guid">3640bc12-d02b-40ac-b990-ef0a82bb2da6</Single>
+        <Single Name="EventPOUGuid" Type="System.Guid">e7551062-8c1a-49fc-8481-15e49578d3d5</Single>
+        <List Name="PouList" Type="{33f568bb-4a2c-48cb-a762-34cca3066d03}" />
+        <Single Name="Implicit" Type="bool">False</Single>
+        <Single Name="WithinSPSTimeSlicing" Type="bool">True</Single>
+        <Single Name="Core" Type="int">-1</Single>
+        <Single Name="Core2" Type="int">-2</Single>
+        <Single Name="TaskGroup" Type="string">IEC-Tasks</Single>
+        <Single Name="SynchTask" Type="string"></Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+        <Single Type="string">Task Configuration</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    <Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">ecad2226-f230-4d11-a112-ded5d6f6a0dc</Single>
+        <Single Name="ParentGuid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+        <Single Name="Name" Type="string">AlarmManagerTask</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">98a2708a-9b18-4f31-82ed-a1465b24fa2d</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639074102719832674</Single>
+      </Single>
+      <Single Name="Object" Type="{98a2708a-9b18-4f31-82ed-a1465b24fa2d}" Method="IArchivable">
+        <Single Name="AllowEmpty" Type="bool">False</Single>
+        <Single Name="Kindoftask" Type="{38cb1f21-e463-4240-9171-f74fb561a060}">Cyclic</Single>
+        <List Name="CustomParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="IntervalParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="EventParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="ExternalEventParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <List Name="FreewheelingParameters" Type="{3e5ba045-1fc5-40ec-9ce7-4b62ec8ccfdf}" />
+        <Single Name="Priority" Type="string">31</Single>
+        <Single Name="Watchdog" Type="{97c20fcf-2c50-4dbb-8faa-06ff4f1e4275}" Method="IArchivable">
+          <Single Name="Enabled" Type="bool">False</Single>
+          <Single Name="Time" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
+            <Single Name="Time" Type="string"></Single>
+            <Single Name="Unit" Type="string">ms</Single>
+          </Single>
+          <Single Name="Sensitivity" Type="string"></Single>
+        </Single>
+        <Single Name="Interval" Type="{68e48988-4399-454b-ae43-e500b779c242}" Method="IArchivable">
+          <Single Name="Time" Type="string">50</Single>
+          <Single Name="Unit" Type="string">ms</Single>
+        </Single>
+        <Single Name="Event" Type="string"></Single>
+        <Single Name="ExternalEvent" Type="string"></Single>
+        <Single Name="TaskGuid" Type="System.Guid">cfd67f80-1341-4e1b-98e7-aa184d51c840</Single>
+        <Single Name="EventPOUGuid" Type="System.Guid">695c098a-2952-4eb2-a43f-57e2161aee3f</Single>
+        <List Name="PouList" Type="{33f568bb-4a2c-48cb-a762-34cca3066d03}">
+          <Single Type="{f194d1ef-7376-42ce-a729-4a5485a97a46}" Method="IArchivable">
+            <Single Name="Name" Type="string">AlarmManager.Alarm_Prg</Single>
+            <Single Name="Comment" Type="string"></Single>
+          </Single>
+        </List>
+        <Single Name="Implicit" Type="bool">False</Single>
+        <Single Name="WithinSPSTimeSlicing" Type="bool">True</Single>
+        <Single Name="Core" Type="int">-1</Single>
+        <Single Name="Core2" Type="int">-2</Single>
+        <Single Name="TaskGroup" Type="string">IEC-Tasks</Single>
+        <Single Name="SynchTask" Type="string"></Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">c860d071-2aac-4cbe-af75-13be8036c2f2</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+        <Single Type="string">Task Configuration</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+  </List2>
+  <Null Name="ProfileName" />
+</Single>  </StructuredView>
+</ExportFile>

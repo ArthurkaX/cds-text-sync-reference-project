@@ -22,6 +22,7 @@ VAR
 	xLevelOk : BOOL;         // Level validity flag (from Method)
 	diOperatingHours : DINT; // Operating time in hours (via Property)
 	xResetHours : BOOL;      // Manual command to reset hours (via Property)
+	fbExample : ST_FB;       // Instance of the example Function Block
 END_VAR
 
 VAR_TEMP
@@ -46,7 +47,7 @@ xLevelOk := ST_METHOD(rValue := rActualLevel,
 
 // 1. Calculate level difference in temporary variable
 rLevelDiff := rLevelSetpoint - rActualLevel;
-
+//Modificataion
 // 2. Control logic
 IF xEnable AND NOT xInternalError THEN
 	
@@ -99,3 +100,10 @@ ELSIF xPumpActive THEN
 ELSE
 	diGlobalStatus := 0;   // Standby
 END_IF
+
+// 8. Call example Function Block instance
+fbExample(xEnable:= TRUE);
+fbExample.ST_FB_Action();
+fbExample.ST_FB_Method(iValueToAdd:= 1);
+
+ST_Function(rValue:= 10.0, rMin:= 4.0, rMax:= 20.0);
