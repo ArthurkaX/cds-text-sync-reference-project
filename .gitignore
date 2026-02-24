@@ -2,6 +2,8 @@
 *.log
 *.tmp
 *.bak
+/.diff/
+/.diff/*
 
 # CODESYS temporary and build files
 *.~u

@@ -12,7 +12,7 @@
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">63784cbb-9ba0-45e6-9d69-babf3f040511</Single>
         <Array Name="EmbeddedTypeGuids" Type="System.Guid" />
-        <Single Name="Timestamp" Type="long">639074905515650993</Single>
+        <Single Name="Timestamp" Type="long">639074950798575268</Single>
       </Single>
       <Single Name="Object" Type="{63784cbb-9ba0-45e6-9d69-babf3f040511}" Method="IArchivable">
         <List Name="TextList" Type="System.Collections.ArrayList">

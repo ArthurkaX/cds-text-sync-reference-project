@@ -6,6 +6,14 @@ This repository is designed to collect examples of CODESYS blocks and objects th
 
 The main goal is to build a database of "problematic" objects to help debug automation tools and understand the limitations of the CODESYS API. If an object cannot be saved as text or restored from it, it belongs here.
 
+## 🔍 External Diffing
+
+If you need to analyze changes in complex XML objects (Visualizations, Alarms, etc.) that are hard to read in the built-in diff viewer:
+
+1. **Press CTRL + Click "Diff"** in the comparison dialog.
+2. This saves both the IDE and Disk versions to the **`.diff/`** folder.
+3. Use an external tool (VS Code, WinMerge, etc.) for a more detailed comparison.
+
 ## 🚀 How to Contribute
 
 We welcome any examples of blocks that refuse to be automated. To add your example:
@@ -28,6 +36,8 @@ To ensure an object is suitable for this collection, follow these steps:
 3. **Export** it using the sync tool.
 4. **Delete** the object from the CODESYS project.
 5. **Import** it back from the exported files.
-6. **Compare**: The imported object must match the original (reference backup) exactly. There should be no differences.
+6. **Compare**: The imported object must match the original (reference backup) exactly.
+   - Use the built-in comparison tool.
+   - For deep analysis, use the **External Diff** feature (`CTRL + Diff`) to save files to `.diff/` and compare them in an external editor.
 
 If any of these steps fail or produce differences, the object is a candidate for this repository.
