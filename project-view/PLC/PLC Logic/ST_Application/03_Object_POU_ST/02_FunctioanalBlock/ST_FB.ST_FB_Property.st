@@ -1,1 +1,0 @@
-PROPERTY ST_FB_Property : INT

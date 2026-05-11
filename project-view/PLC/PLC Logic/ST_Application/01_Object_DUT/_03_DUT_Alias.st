@@ -1,1 +1,0 @@
-TYPE _03_DUT_Alias : REAL; END_TYPE
