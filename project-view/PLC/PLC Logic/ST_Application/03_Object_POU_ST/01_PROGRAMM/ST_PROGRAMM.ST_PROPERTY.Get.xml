@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">b225677a-b018-4087-a1d0-c75aba3d0a63</Single>
+        <Single Name="ParentGuid" Type="System.Guid">dbde08cb-21da-41ee-bce3-ba861cfde563</Single>
+        <Single Name="Name" Type="string">Get</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">792f2eb6-721e-4e64-ba20-bc98351056db</Single>
+        <Array Name="EmbeddedTypeGuids" Type="System.Guid">
+          <Single Type="System.Guid">a9ed5b7e-75c5-4651-af16-d2c27e98cb94</Single>
+          <Single Type="System.Guid">3b83b776-fb25-43b8-99f2-3c507c9143fc</Single>
+        </Array>
+        <Single Name="Timestamp" Type="long">639073524638232663</Single>
+      </Single>
+      <Single Name="Object" Type="{792f2eb6-721e-4e64-ba20-bc98351056db}" Method="IArchivable">
+        <Single Name="Implementation" Type="{3b83b776-fb25-43b8-99f2-3c507c9143fc}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Single Name="TextBlobForSerialisation" Type="string" />
+            <Single Name="LineInfoPersistence" Type="string">b225677a-b018-4087-a1d0-c75aba3d0a63_Impl_LineIds</Single>
+          </Single>
+        </Single>
+        <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+          <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+            <Single Name="TextBlobForSerialisation" Type="string" />
+            <Single Name="LineInfoPersistence" Type="string">b225677a-b018-4087-a1d0-c75aba3d0a63_Decl_LineIds</Single>
+          </Single>
+        </Single>
+        <Single Name="IsGet" Type="bool">True</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">dbde08cb-21da-41ee-bce3-ba861cfde563</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">PLC</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">ST_Application</Single>
+        <Single Type="string">03_Object_POU_ST</Single>
+        <Single Type="string">01_PROGRAMM</Single>
+        <Single Type="string">ST_PROGRAMM</Single>
+        <Single Type="string">ST_PROPERTY</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

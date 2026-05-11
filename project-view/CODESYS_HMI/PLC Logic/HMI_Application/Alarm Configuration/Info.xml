@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">db2525b7-6051-4733-85f7-124510cae8e5</Single>
+        <Single Name="ParentGuid" Type="System.Guid">26f65400-683f-442b-9e85-613a55574aef</Single>
+        <Single Name="Name" Type="string">Info</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">b8b46f61-c7c1-4259-87e4-26fe674798f9</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639074102579449522</Single>
+      </Single>
+      <Single Name="Object" Type="{b8b46f61-c7c1-4259-87e4-26fe674798f9}" Method="IArchivable">
+        <Single Name="LanguageModelData" Type="{88c58489-27f3-4716-8d69-2e873ecb2a7c}" Method="IArchivable">
+          <Single Name="FbInstanceGuid" Type="System.Guid">375545b7-8732-4bc9-826f-e4aa1027be52</Single>
+          <Single Name="SetAlarmNotifiablesGuid" Type="System.Guid">4baa2edb-03ac-40ff-808b-78984e118a2d</Single>
+          <Single Name="SetDisplayOptionsGuid" Type="System.Guid">c89de54f-9fef-424a-9def-3835f7a8d147</Single>
+          <Single Name="FB_InitGuid" Type="System.Guid">6a32cd6a-cd4b-4f8b-b1f6-bd25d0fd9498</Single>
+          <Single Name="FB_ReinitGuid" Type="System.Guid">a741d429-2fd8-4679-97d1-fb154c2c7b78</Single>
+        </Single>
+        <Single Name="InternalID" Type="uint">3</Single>
+        <Single Name="Priority" Type="byte">100</Single>
+        <Single Name="Archiving" Type="bool">False</Single>
+        <Single Name="AcknowledgeMethod" Type="{bb53cc3f-9c80-4137-90f3-49c82d3256ff}">REP</Single>
+        <Single Name="AcknowledgeSeparately" Type="bool">False</Single>
+        <List Name="NotificationActions" Type="System.Collections.ArrayList" />
+        <Dictionary Type="System.Collections.Hashtable" Name="DisplayOptions" />
+        <Single Name="ReAlarmTime" Type="string" />
+        <Single Name="AutoResetDigitalAlarms" Type="bool">False</Single>
+        <Single Name="AckInsteadOfConfirm" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">26f65400-683f-442b-9e85-613a55574aef</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+        <Single Type="string">Alarm Configuration</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

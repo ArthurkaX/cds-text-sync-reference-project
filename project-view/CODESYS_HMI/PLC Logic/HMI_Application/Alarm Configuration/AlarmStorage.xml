@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">a2202fea-ea51-4364-9f50-4b15260bfb68</Single>
+        <Single Name="ParentGuid" Type="System.Guid">26f65400-683f-442b-9e85-613a55574aef</Single>
+        <Single Name="Name" Type="string">AlarmStorage</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">5bd56248-46fc-4108-be33-ed01ad87d070</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639074102579501078</Single>
+      </Single>
+      <Single Name="Object" Type="{5bd56248-46fc-4108-be33-ed01ad87d070}" Method="IArchivable">
+        <Single Name="LanguageModelData" Type="{a4a9aa93-a983-4916-b80b-1c22588622ea}" Method="IArchivable">
+          <Single Name="FbInstanceGuid" Type="System.Guid">dc1d063b-7fc9-4a38-8a31-099b9362d359</Single>
+          <Single Name="GetSubDirectoryGuid" Type="System.Guid">ea0f476d-9818-44e0-a913-386ec5a87def</Single>
+          <Single Name="GetFileLimitGuid" Type="System.Guid">a15d7d2b-f53a-4a1f-8c5d-92e95d870616</Single>
+          <Single Name="GetMaxRecordCountGuid" Type="System.Guid">9f15c6b5-533e-4f94-9302-5d0035c76427</Single>
+          <Single Name="GetStorageSizeGuid" Type="System.Guid">c3bb5768-08c5-4889-a77c-5eb7c2170647</Single>
+          <Single Name="GetRecordSizeGuid" Type="System.Guid">d6d9e36f-c964-403c-a785-1d91900edd44</Single>
+        </Single>
+        <Single Name="SubDirectory" Type="string">/</Single>
+        <Single Name="Limit" Type="{c8240798-5e24-4ecb-bb4f-b7c7a766c414}" Method="IArchivable">
+          <Single Name="CountRecords" Type="ulong">1500</Single>
+        </Single>
+        <Single Name="CircularBuffer" Type="bool">False</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">26f65400-683f-442b-9e85-613a55574aef</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+        <Single Type="string">Alarm Configuration</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

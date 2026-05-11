@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">4946b228-fa41-40fd-ae1c-24878e7b5404</Single>
+        <Single Name="ParentGuid" Type="System.Guid">26f65400-683f-442b-9e85-613a55574aef</Single>
+        <Single Name="Name" Type="string">AlarmGroup</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">21f4ed1d-ec95-4666-820e-4abf64d93d6b</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639074407396601926</Single>
+      </Single>
+      <Single Name="Object" Type="{21f4ed1d-ec95-4666-820e-4abf64d93d6b}" Method="IArchivable">
+        <Single Name="UniqueIdGenerator" Type="string">2</Single>
+        <Single Name="InternalID" Type="uint">4</Single>
+        <Null Name="Deactivation" />
+        <Dictionary Type="System.Collections.Hashtable" Name="Alarms">
+          <Entry>
+            <Key>
+              <Single Type="string">0</Single>
+            </Key>
+            <Value>
+              <Single Type="{24db3d30-991e-4330-9002-3d2815bba445}" Method="IArchivable">
+                <Single Name="InternalID" Type="uint">1</Single>
+                <Single Name="ID" Type="string">0</Single>
+                <Single Name="ObservationType" Type="{49b5b622-1e6e-4135-86f1-cbdaed25643c}" Method="IArchivable">
+                  <Single Name="Comparison" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">Equal</Single>
+                  <Single Name="ExpressionToCompare" Type="string">TRUE</Single>
+                  <Single Name="Expression" Type="string">ZONE_HMI.arErrors[0]</Single>
+                </Single>
+                <Single Name="AlarmClass" Type="{23323108-d8b8-4620-8b35-6925a5d5de21}" Method="IArchivable">
+                  <Single Name="Guid" Type="System.Guid">54f351f2-e0cc-401e-af24-268e10859c59</Single>
+                  <Single Name="Name" Type="string">Error</Single>
+                </Single>
+                <Single Name="AlarmClassCompany" Type="string" />
+                <Single Name="AlarmClassTitle" Type="string" />
+                <Single Name="FullAlarmClassName" Type="string">Error</Single>
+                <Null Name="Deactivation" />
+                <Null Name="MinPendingTime" />
+                <Null Name="OffDelayTime" />
+                <Null Name="LatchVariable1" />
+                <Null Name="LatchVariable2" />
+                <Null Name="HigherPrioAlarm" />
+                <Null Name="AdditionalLatchVariables" />
+                <Null Name="AdditionalMessageIDs" />
+              </Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
+              <Single Type="string">1</Single>
+            </Key>
+            <Value>
+              <Single Type="{24db3d30-991e-4330-9002-3d2815bba445}" Method="IArchivable">
+                <Single Name="InternalID" Type="uint">2</Single>
+                <Single Name="ID" Type="string">1</Single>
+                <Single Name="ObservationType" Type="{49b5b622-1e6e-4135-86f1-cbdaed25643c}" Method="IArchivable">
+                  <Single Name="Comparison" Type="{bffb3c53-f105-4e85-aba2-e30df579d75f}">Equal</Single>
+                  <Single Name="ExpressionToCompare" Type="string">TRUE</Single>
+                  <Single Name="Expression" Type="string">ZONE_HMI.arErrors[1]</Single>
+                </Single>
+                <Single Name="AlarmClass" Type="{23323108-d8b8-4620-8b35-6925a5d5de21}" Method="IArchivable">
+                  <Single Name="Guid" Type="System.Guid">5acf2f51-92c8-49a4-b618-24a6646198f5</Single>
+                  <Single Name="Name" Type="string">Warning</Single>
+                </Single>
+                <Single Name="AlarmClassCompany" Type="string" />
+                <Single Name="AlarmClassTitle" Type="string" />
+                <Single Name="FullAlarmClassName" Type="string">Warning</Single>
+                <Null Name="Deactivation" />
+                <Null Name="MinPendingTime" />
+                <Null Name="OffDelayTime" />
+                <Null Name="LatchVariable1" />
+                <Null Name="LatchVariable2" />
+                <Null Name="HigherPrioAlarm" />
+                <Null Name="AdditionalLatchVariables" />
+                <Null Name="AdditionalMessageIDs" />
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TextListReference" Type="{23323108-d8b8-4620-8b35-6925a5d5de21}" Method="IArchivable">
+          <Single Name="Guid" Type="System.Guid">4cec7f14-8471-4e16-8331-b9b6bfce0883</Single>
+          <Single Name="Name" Type="string">AlarmGroup</Single>
+        </Single>
+        <Null Name="AlarmStorage" />
+        <Single Name="LanguageModelData" Type="{feee3291-fc4a-4055-b9b9-c248cc08b59c}" Method="IArchivable">
+          <Single Name="FbInstanceGuid" Type="System.Guid">156b9f92-c8dc-4b75-8146-4dc2118eb9cd</Single>
+          <Single Name="IsDeactivatedGuid" Type="System.Guid">a74833eb-f404-44f2-827a-d5c58cdcb849</Single>
+          <Single Name="AlarmgroupIsDeactivatedGuid" Type="System.Guid">2b98f31f-4259-48ea-a553-51a4ae67587e</Single>
+          <Single Name="GetAlarms" Type="System.Guid">4c2d18e4-cd23-4e35-9f78-ee91276ad888</Single>
+          <Single Name="GetEvents" Type="System.Guid">5e3d421f-1cb2-48ce-9ac6-9a12329d5ad9</Single>
+          <Single Name="ExprEvaluatorGuid " Type="System.Guid">cf48c46f-49ab-466a-b727-760f4852da6c</Single>
+          <Single Name="ChangeEvaluatorGuid " Type="System.Guid">a7c03458-6ae9-4dbc-b121-43eaefcae0f3</Single>
+          <Single Name="IsTrueGuid" Type="System.Guid">eb54bf90-415e-4899-89f2-e03832dc3167</Single>
+          <Single Name="DeactivatorGuid " Type="System.Guid">e3273e24-c5bb-42da-868e-8552f61cb436</Single>
+          <Single Name="HasChangedGuid" Type="System.Guid">6fa69170-d6a0-4e36-865a-4e79f7de46ff</Single>
+          <Single Name="DeactivatorIsDeactivatedGuid" Type="System.Guid">c0481fcb-bedf-4b5d-95da-14aaa10bbd42</Single>
+          <Single Name="SetActiveAlarmGuid" Type="System.Guid">200f2dba-42a2-40a2-994e-38a6d8dbb279</Single>
+          <Single Name="SetActiveAlarmCountGuid" Type="System.Guid">7e595909-8949-40a3-8024-41be4eb71906</Single>
+          <Single Name="GetValueProviderGuid" Type="System.Guid">fb1ebe41-89f5-4391-8dee-b4de3291fa83</Single>
+          <Single Name="GetTextListNameGuid" Type="System.Guid">792c9bdb-0375-426d-923f-b5d76939ba39</Single>
+          <Single Name="ValueProviderGuid " Type="System.Guid">814574e0-5677-4e40-a28f-0818dc038b59</Single>
+          <Single Name="GetValueGuid" Type="System.Guid">d34d0817-20d4-4fb5-9d8b-8519a5b89185</Single>
+          <Single Name="RaiseEventGuid" Type="System.Guid">641accc3-2663-444f-a9bd-f56df187b7cf</Single>
+          <Single Name="GetNameGuid" Type="System.Guid">056f1f96-6c3c-480f-aabd-dcbd62506989</Single>
+          <Single Name="GetInternalIDGuid" Type="System.Guid">a49c5f95-b837-4723-8fcd-6a7607c29532</Single>
+          <Single Name="GetStringIDGuid" Type="System.Guid">9517842b-70be-441c-bada-11a83a58192d</Single>
+          <Single Name="AlarmIDEnumGuid" Type="System.Guid">5b7dcc63-eff5-4231-afa5-2592e4b38216</Single>
+          <Single Name="FB_InitGuid" Type="System.Guid">e44a766b-8255-4e09-a302-5b9ca3df65f1</Single>
+          <Single Name="FB_ReinitGuid" Type="System.Guid">0bb6063c-f318-46ef-9a27-e6b381332723</Single>
+          <Single Name="InhibitOnlineChangeGuid" Type="System.Guid">5ed3dc0c-fdb1-4183-b86b-3fe05d9374eb</Single>
+          <Single Name="GuidReservedPouMethod0" Type="System.Guid">aa04872b-cd02-4b74-b60b-03cd4cd31531</Single>
+          <Single Name="GetTextListName2Guid" Type="System.Guid">e684242f-ee79-46cd-84f5-f527eec91aac</Single>
+          <Single Name="GuidReservedPouMethod1" Type="System.Guid">f279fb2d-0afb-45ce-b4ce-f82e1f62d748</Single>
+          <Single Name="GuidReservedPouMethod2" Type="System.Guid">18013cb1-26c2-49d1-9d59-1daa22cbfac8</Single>
+          <Single Name="GuidReservedPouMethod3" Type="System.Guid">71128a63-3699-400f-9066-934d8dce876c</Single>
+          <Single Name="GuidReservedPouMethod4" Type="System.Guid">c168b55c-5b5b-425a-81fe-3eecae07721f</Single>
+          <Single Name="GuidReservedPouMethod5" Type="System.Guid">59111597-3f78-420c-82ca-9d460504a3c7</Single>
+          <Single Name="GuidReservedPouMethod6" Type="System.Guid">ef7784fe-31c3-4c88-bf23-a0afa648536f</Single>
+          <Single Name="GuidReservedPouMethod7" Type="System.Guid">1d3c93d6-aa32-4735-9161-a0c9849004ff</Single>
+          <Single Name="GuidReservedPouMethod8" Type="System.Guid">67e646ff-5470-4349-bc49-7002d0131067</Single>
+          <Single Name="GuidReservedPouMethod9" Type="System.Guid">7938acfa-6746-44fb-84d4-8669c78440ce</Single>
+          <Single Name="GuidReservedPouMethod10" Type="System.Guid">52ee791e-b651-493c-989a-fcb00e70af07</Single>
+        </Single>
+        <Single Name="PrevLatchVarCount" Type="int">2</Single>
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">26f65400-683f-442b-9e85-613a55574aef</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+        <Single Type="string">Alarm Configuration</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

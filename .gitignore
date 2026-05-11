@@ -1,0 +1,6 @@
+# cds-text-sync generated state
+.dump/
+.backup/
+.diff/
+sync_debug.log
+build.log
