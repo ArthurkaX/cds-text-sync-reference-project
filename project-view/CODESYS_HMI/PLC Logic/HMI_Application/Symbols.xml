@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">961e206e-3775-443c-aa5a-20441f1c46a8</Single>
+        <Single Name="ParentGuid" Type="System.Guid">80340b67-ae53-49fd-b78e-efaac9841b7f</Single>
+        <Single Name="Name" Type="string">Symbols</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
+        <Single Name="TypeGuid" Type="System.Guid">21d4fe94-4123-4e23-9091-ead220afbd1f</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639137826552373558</Single>
+      </Single>
+      <Single Name="Object" Type="{21d4fe94-4123-4e23-9091-ead220afbd1f}" Method="IArchivable">
+        <Single Name="GVLGuid" Type="System.Guid">91a348d4-fcc6-4fee-a211-2db42a827aea</Single>
+        <Single Name="POUGuid" Type="System.Guid">413e04d0-f62c-4b05-be0a-40396ed01061</Single>
+        <List2 Name="SelectionSigns">
+          <Single Type="{a7616865-54da-4628-9587-695c8e270109}" Method="IArchivable">
+            <Single Name="SignName" Type="string">ZONE_HMI</Single>
+            <Single Name="SignLibIdIndex" Type="int">-1</Single>
+            <List2 Name="SignVariables">
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">2</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xStart</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">1</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xStop</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xReset</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">0</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xReverse</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">2</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xEmitt1</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xEmitt2</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">2</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xAnyError</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">0</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xAnyWarning</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">1</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xSystemOK</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">2</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">BOOL</Single>
+                <Single Name="VarName" Type="string">xRunning</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">2</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">ARRAY [1..4] OF DUT_CONV_FRAME</Single>
+                <Single Name="VarName" Type="string">arConveyors</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">0</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">ARRAY [0..10] OF BOOL</Single>
+                <Single Name="VarName" Type="string">arErrors</Single>
+              </Single>
+            </List2>
+            <Single Name="SignGuid" Type="System.Guid">a73fb1a9-4828-43a0-9940-b3226ea6f07d</Single>
+            <Null Name="SymbolSetName" />
+          </Single>
+        </List2>
+        <List2 Name="SelectionTypeSigns" />
+        <Single Name="LibraryIds" Type="{475e2d23-d370-486a-bf04-61cd7f272d63}" Method="IArchivable">
+          <Dictionary2 Name="Table" />
+        </Single>
+        <Single Name="ChangePouGuid" Type="System.Guid">00abbd44-5a4f-4c84-ad51-631d2eba6152</Single>
+        <Single Name="ExportSymbolComments" Type="bool">False</Single>
+        <Single Name="SupportOPCUA" Type="bool">True</Single>
+        <Single Name="UseEmptyNamespaceByDefault" Type="bool">False</Single>
+        <Single Name="ContentFeatureFlagsPartial" Type="{e4a5ef04-a758-4433-87ed-33f95f57640a}">None</Single>
+        <Single Name="SymbolAttributeFilterType" Type="{920738ca-88e7-4433-88f7-4a50c373436a}">None</Single>
+        <Null Name="SymbolAttributeFilterData" />
+        <Single Name="SymbolCommentFilterType" Type="{b2765d18-2203-42fd-a97c-fd0297101580}">None</Single>
+        <Single Name="EnableDirectIoAccess" Type="bool">False</Single>
+        <Single Name="PreoareOnlineChangePouGuid" Type="System.Guid">37cb6852-6fb6-40c3-a127-f36fbe89b0f0</Single>
+        <Single Name="ClientSideLayoutCalculator" Type="System.Guid">0141eb75-141b-4ea1-9a8c-75f952b22a6c</Single>
+        <List2 Name="SelectionSignaturesConfig" />
+        <List2 Name="SelectionTypeSignaturesConfig" />
+        <List2 Name="SymbolSetNames" />
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">80340b67-ae53-49fd-b78e-efaac9841b7f</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">CODESYS_HMI</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">HMI_Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

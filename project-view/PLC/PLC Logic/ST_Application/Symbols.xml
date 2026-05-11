@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Single Type="{6198ad31-4b98-445c-927f-3258a0e82fe3}" Method="IArchivable">
+      <Single Name="IsRoot" Type="bool">False</Single>
+      <Single Name="MetaObject" Type="{81297157-7ec9-45ce-845e-84cab2b88ade}" Method="IArchivable">
+        <Single Name="Guid" Type="System.Guid">7f56107e-91da-4d4b-9656-44a39d564940</Single>
+        <Single Name="ParentGuid" Type="System.Guid">4f599365-b37f-4f7e-9ace-264406373425</Single>
+        <Single Name="Name" Type="string">Symbols</Single>
+        <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties">
+          <Entry>
+            <Key>
+              <Single Type="System.Guid">24568a24-c491-472c-a21f-ee5d33859fab</Single>
+            </Key>
+            <Value>
+              <Single Type="{24568a24-c491-472c-a21f-ee5d33859fab}" Method="IArchivable">
+                <Single Name="MemoryReserveForOnlineChange" Type="int">0</Single>
+                <Single Name="ExcludeFromBuild" Type="bool">False</Single>
+                <Single Name="External" Type="bool">False</Single>
+                <Single Name="EnableSystemCall" Type="bool">False</Single>
+                <Single Name="CompilerDefines" Type="string" />
+                <Single Name="LinkAlways" Type="bool">False</Single>
+                <Array Name="Undefines" Type="string" />
+              </Single>
+            </Value>
+          </Entry>
+        </Dictionary>
+        <Single Name="TypeGuid" Type="System.Guid">21d4fe94-4123-4e23-9091-ead220afbd1f</Single>
+        <Null Name="EmbeddedTypeGuids" />
+        <Single Name="Timestamp" Type="long">639138728294915649</Single>
+      </Single>
+      <Single Name="Object" Type="{21d4fe94-4123-4e23-9091-ead220afbd1f}" Method="IArchivable">
+        <Single Name="GVLGuid" Type="System.Guid">4cd0320c-b57e-4848-9aa7-12f3b267f397</Single>
+        <Single Name="POUGuid" Type="System.Guid">72549744-e50c-4aca-8fed-28da0dd9564c</Single>
+        <List2 Name="SelectionSigns">
+          <Single Type="{a7616865-54da-4628-9587-695c8e270109}" Method="IArchivable">
+            <Single Name="SignName" Type="string">IoConfig_Globals</Single>
+            <Single Name="SignLibIdIndex" Type="int">-1</Single>
+            <List2 Name="SignVariables">
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">POINTER TO BYTE</Single>
+                <Single Name="VarName" Type="string">CAADEDTemp</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">CANbusDevice.CANbus_Diag</Single>
+                <Single Name="VarName" Type="string">CANbus</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">_3SCOS.CANOpenManager_Diag</Single>
+                <Single Name="VarName" Type="string">CANopen_Manager_SoftMotion</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">DED.CAADiagDeviceDefault</Single>
+                <Single Name="VarName" Type="string">PLC</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">DED.CAADiagDeviceDefault</Single>
+                <Single Name="VarName" Type="string">Modbus_COM_1</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">DED.CAADiagDeviceDefault</Single>
+                <Single Name="VarName" Type="string">Modbus_COM</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">DED.CAADiagDeviceDefault</Single>
+                <Single Name="VarName" Type="string">SoftMotion_General_Axis_Pool</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">ARRAY [0..19] OF DED.INode</Single>
+                <Single Name="VarName" Type="string">DeviceNodes</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvEthernet.IoDrvEthernetDiag</Single>
+                <Single Name="VarName" Type="string">Ethernet_Modbus</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvModbusTCP.IoDrvModbusTCP_Diag</Single>
+                <Single Name="VarName" Type="string">Modbus_TCP_Client</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvModbusTCP.ModbusTCPSlave_Diag</Single>
+                <Single Name="VarName" Type="string">Modbus_TCP_Server</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvEthernet.IoDrvEthernetDiag</Single>
+                <Single Name="VarName" Type="string">Ethernet_Profinet</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvProfinet.ProfinetControllerDiag</Single>
+                <Single Name="VarName" Type="string">PN_Controller</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvProfinet.PNSlaveDiag</Single>
+                <Single Name="VarName" Type="string">EL6631_0010_V2_0</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvEthercatLib.IODrvEtherCAT_Diag</Single>
+                <Single Name="VarName" Type="string">EtherCAT_Master</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvEthercatLib.ETCSlave_Diag</Single>
+                <Single Name="VarName" Type="string">Unidrive_SP_Closed_Loop</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">SM3_Drive_ETC_ControlTechniques.AXIS_REF_ETC_ControlTechniques</Single>
+                <Single Name="VarName" Type="string">SM_Drive_EtherCAT_ControlTechniques</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvModbus.IoDrvModbusComPort_Diag</Single>
+                <Single Name="VarName" Type="string">Modbus_Client_COM_Port</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">IoDrvModbus.ModbusSlaveComPort_Diag</Single>
+                <Single Name="VarName" Type="string">Modbus_Server_COM_Port</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">_3SCOS.CANRemoteDevice_Diag</Single>
+                <Single Name="VarName" Type="string">EPOS4_50_5</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">SM3_Drive_CAN_Maxon_EPOS4.AXIS_REF_CAN_Maxon_EPOS4</Single>
+                <Single Name="VarName" Type="string">SM3_Drive_CAN_Maxon_EPOS4</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">SM3_Basic.AXIS_REF_LOGICAL_SM3</Single>
+                <Single Name="VarName" Type="string">SM_Drive_Logical</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">POINTER TO IoConfigTaskMap</Single>
+                <Single Name="VarName" Type="string">pIoConfigTaskMap</Single>
+              </Single>
+              <Single Type="{d8f96a30-175d-4274-9fd9-f7db39255531}" Method="IArchivable">
+                <Single Name="VarAccess" Type="int">3</Single>
+                <Single Name="MaxVarAccess" Type="int">3</Single>
+                <Single Name="VarType" Type="string">DINT</Single>
+                <Single Name="VarName" Type="string">nIoConfigTaskMapCount</Single>
+              </Single>
+            </List2>
+            <Single Name="SignGuid" Type="System.Guid">b635b817-6177-532a-b787-67fbc32ca113</Single>
+            <Null Name="SymbolSetName" />
+          </Single>
+        </List2>
+        <List2 Name="SelectionTypeSigns" />
+        <Single Name="LibraryIds" Type="{475e2d23-d370-486a-bf04-61cd7f272d63}" Method="IArchivable">
+          <Dictionary2 Name="Table" />
+        </Single>
+        <Single Name="ChangePouGuid" Type="System.Guid">edcf163f-1956-4bd7-a03a-8dec34c6712b</Single>
+        <Single Name="ExportSymbolComments" Type="bool">False</Single>
+        <Single Name="SupportOPCUA" Type="bool">True</Single>
+        <Single Name="UseEmptyNamespaceByDefault" Type="bool">False</Single>
+        <Single Name="ContentFeatureFlagsPartial" Type="{e4a5ef04-a758-4433-87ed-33f95f57640a}">None</Single>
+        <Single Name="SymbolAttributeFilterType" Type="{920738ca-88e7-4433-88f7-4a50c373436a}">None</Single>
+        <Null Name="SymbolAttributeFilterData" />
+        <Single Name="SymbolCommentFilterType" Type="{b2765d18-2203-42fd-a97c-fd0297101580}">None</Single>
+        <Single Name="EnableDirectIoAccess" Type="bool">False</Single>
+        <Single Name="PreoareOnlineChangePouGuid" Type="System.Guid">c45289a0-4032-4bf6-87b3-bc157424c971</Single>
+        <Single Name="ClientSideLayoutCalculator" Type="System.Guid">0141eb75-141b-4ea1-9a8c-75f952b22a6c</Single>
+        <List2 Name="SelectionSignaturesConfig" />
+        <List2 Name="SelectionTypeSignaturesConfig" />
+        <List2 Name="SymbolSetNames" />
+      </Single>
+      <Single Name="ParentSVNodeGuid" Type="System.Guid">4f599365-b37f-4f7e-9ace-264406373425</Single>
+      <Array Name="Path" Type="string">
+        <Single Type="string">PLC</Single>
+        <Single Type="string">PLC Logic</Single>
+        <Single Type="string">ST_Application</Single>
+      </Array>
+      <Single Name="Index" Type="int">-1</Single>
+    </Single>
+    

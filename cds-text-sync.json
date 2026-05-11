@@ -1,0 +1,42 @@
+{
+  "backup_retention_count": 10, 
+  "layout": "project-view", 
+  "pre_import_backup_enabled": false, 
+  "profile": "default", 
+  "projections": {
+    "dut_st": {
+      "enabled": true, 
+      "format": "st", 
+      "import_safe": false, 
+      "kind": "dut"
+    }, 
+    "gvl_st": {
+      "enabled": true, 
+      "format": "st", 
+      "import_safe": false, 
+      "kind": "gvl"
+    }, 
+    "pou_child_st": {
+      "enabled": true, 
+      "format": "st", 
+      "import_safe": false, 
+      "kind": "method"
+    }, 
+    "pou_st": {
+      "enabled": true, 
+      "format": "st", 
+      "import_safe": false, 
+      "kind": "pou"
+    }, 
+    "textlist_csv": {
+      "enabled": true, 
+      "format": "csv", 
+      "import_safe": true, 
+      "kind": "textlist"
+    }
+  }, 
+  "show_completion_popup": true, 
+  "verbose_logging": false, 
+  "version": 1, 
+  "view_root": null
+}
