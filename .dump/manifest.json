@@ -1,0 +1,2269 @@
+{
+  "created": "2026-05-11T18:49:34",
+  "view_root": "project-view",
+  "ns": "",
+  "entries": [
+    {
+      "guid": "6470a90f-b7cb-43ac-9ae5-94b2338b4573",
+      "name": "Project Settings",
+      "type_guid": "8753fe6f-4a22-4320-8103-e553c4fc8e04",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "POUs\\Project Settings.xml",
+      "hash": "9b4655fcff4c827273d0452d3754fb48f7d2ffde"
+    },
+    {
+      "guid": "11c0fc3a-9bcf-4dd8-ac38-efb93363e521",
+      "name": "Project Information",
+      "type_guid": "085afe48-c5d8-4ea5-ab0d-b35701fa6009",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "POUs\\Project Information.xml",
+      "hash": "0577bcd960f3606bc94f08cb70bf94650d289953"
+    },
+    {
+      "guid": "b5430773-3042-47d6-a6d3-28650a6ce532",
+      "name": "GlobalTextList",
+      "type_guid": "63784cbb-9ba0-45e6-9d69-babf3f040511",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "POUs\\GlobalTextList.xml",
+      "hash": "1bc93c85686956d2e3e291f25b5732051ed2ee6c",
+      "projection_paths": [
+        "POUs\\GlobalTextList.csv"
+      ],
+      "projection_hashes": {
+        "POUs\\GlobalTextList.csv": "777d3d4ab116e1a5206e46fa736ea928ec321399"
+      },
+      "projection_extractors": {
+        "POUs\\GlobalTextList.csv": "textlist_csv"
+      },
+      "projection_import_safe": {
+        "POUs\\GlobalTextList.csv": true
+      }
+    },
+    {
+      "guid": "e9e7d570-f91a-4b07-8c6c-23febe72a87f",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": null,
+      "structured_view_guid": "{21af5390-2942-461a-bf89-951aaf6999f1}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "POUs\\Library Manager.xml",
+      "hash": "8533b7b605b0958cca49735dc3bbcfe0db63438b"
+    },
+    {
+      "guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "name": "PLC",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\.cds-object.xml",
+      "hash": "3d3c928d77497ad6abb777af4a012a4e08a241a2"
+    },
+    {
+      "guid": "24efe3a3-86ab-4390-98b0-4cffc427c834",
+      "name": "CODESYS_HMI",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\.cds-object.xml",
+      "hash": "1671b595e2731be74091847a6a7681aa39923af8"
+    },
+    {
+      "guid": "abc265a5-80cb-4724-9c6f-62161985881c",
+      "name": "Plc Logic",
+      "type_guid": "40b404f9-e5dc-42c6-907f-c89f4a517386",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Plc Logic\\.cds-object.xml",
+      "hash": "f94abd8ce30b03eaa8b8d798cd6110434d355007"
+    },
+    {
+      "guid": "d3bb71df-6694-4613-a317-170df7d35ded",
+      "name": "Ethernet_Modbus",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Ethernet_Modbus\\.cds-object.xml",
+      "hash": "762ac510a27f063fe371aa30d90c9542213488c3"
+    },
+    {
+      "guid": "dde78802-38fa-4169-bf89-c964d5dd263f",
+      "name": "Ethernet_Profinet",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Ethernet_Profinet\\.cds-object.xml",
+      "hash": "b13de64e71a60c9ab72adf2fdf19b778d3238a46"
+    },
+    {
+      "guid": "10fae352-e008-4864-9d06-1052136f31a0",
+      "name": "EtherCAT_Master",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\EtherCAT_Master\\.cds-object.xml",
+      "hash": "01ced3ee15a8ddbc5c19abbb722e42da1fee5d66"
+    },
+    {
+      "guid": "ae2b108e-049e-4983-84a0-899134befba6",
+      "name": "Modbus_COM_1",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Modbus_COM_1.xml",
+      "hash": "cfc1cf7304ad5b6b2a7d261ab9fbd11719423433"
+    },
+    {
+      "guid": "91098784-d2c5-4814-97cb-972f70bb2058",
+      "name": "Modbus_COM",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Modbus_COM\\.cds-object.xml",
+      "hash": "bb796e9b0ca620d66dff949e5f624b8f74200ef5"
+    },
+    {
+      "guid": "425cc7bd-6e66-4757-9afb-361509e73723",
+      "name": "CANbus",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\CANbus\\.cds-object.xml",
+      "hash": "6b59a15b9a20919a36608a71c9c33706cb563839"
+    },
+    {
+      "guid": "e69aecbb-9cc1-455b-ae30-d9cb7ac85dbe",
+      "name": "SoftMotion General Axis Pool",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\SoftMotion General Axis Pool.xml",
+      "hash": "8ff7d4987084265f36786d8d16b08d67067e5e6b"
+    },
+    {
+      "guid": "078ec96e-ea88-4e68-9141-65ccce6f8586",
+      "name": "Plc Logic",
+      "type_guid": "40b404f9-e5dc-42c6-907f-c89f4a517386",
+      "parent_guid": "24efe3a3-86ab-4390-98b0-4cffc427c834",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\Plc Logic\\.cds-object.xml",
+      "hash": "0534ed9ebcfc0cfd32dd3a758f9f3fbcd29f25d5"
+    },
+    {
+      "guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "name": "ST_Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "abc265a5-80cb-4724-9c6f-62161985881c",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\.cds-object.xml",
+      "hash": "70b27ef93946590ae5afe6420db07a3410c6eff8"
+    },
+    {
+      "guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "name": "LD_Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "abc265a5-80cb-4724-9c6f-62161985881c",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\.cds-object.xml",
+      "hash": "b682b1c9bdfea1709f71d9e488f51f3f68ca3387"
+    },
+    {
+      "guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "name": "CFC_Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "abc265a5-80cb-4724-9c6f-62161985881c",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\.cds-object.xml",
+      "hash": "d7892d669d0364e6a0dd837631b1ed382b150f98"
+    },
+    {
+      "guid": "0a8d33b4-51a6-46f5-9dc0-b2b47a2aa1fa",
+      "name": "FBD_Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "abc265a5-80cb-4724-9c6f-62161985881c",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\.cds-object.xml",
+      "hash": "34e4ab6b6cd4f8f85ae7c49ea1668a6964c5afb1"
+    },
+    {
+      "guid": "c2cd525a-25a4-4aa9-83f6-e8d3ddb47dbb",
+      "name": "Modbus_TCP_Client",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "d3bb71df-6694-4613-a317-170df7d35ded",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Ethernet_Modbus\\Modbus_TCP_Client\\.cds-object.xml",
+      "hash": "1464979719fe2eadfd5c20a17648dc8273b1d361"
+    },
+    {
+      "guid": "1bf1867c-aaa0-45f8-8ccf-55427108eb8f",
+      "name": "PN_Controller",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "dde78802-38fa-4169-bf89-c964d5dd263f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Ethernet_Profinet\\PN_Controller\\.cds-object.xml",
+      "hash": "fcddb5a150405e8c57001d418ee191a5478e19f1"
+    },
+    {
+      "guid": "21b8d9c1-1cca-4e65-829d-fb7dfed9b863",
+      "name": "Unidrive_SP_Closed_Loop",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "10fae352-e008-4864-9d06-1052136f31a0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\EtherCAT_Master\\Unidrive_SP_Closed_Loop\\.cds-object.xml",
+      "hash": "797625ab1dc35e08ad4d95da48343cc9f7ce9192"
+    },
+    {
+      "guid": "c9332910-e3cc-4aaa-8136-c3e3e9b4d010",
+      "name": "Modbus_Client_COM_Port",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "91098784-d2c5-4814-97cb-972f70bb2058",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Modbus_COM\\Modbus_Client_COM_Port\\.cds-object.xml",
+      "hash": "5ae061ebbc9533e77dbf394ebc67a23616c29726"
+    },
+    {
+      "guid": "ae66a67a-e7ce-4b2c-89e2-bf9709dde0f1",
+      "name": "CANopen_Manager_SoftMotion",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "425cc7bd-6e66-4757-9afb-361509e73723",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\CANbus\\CANopen_Manager_SoftMotion\\.cds-object.xml",
+      "hash": "d791c007f52b181181f9c969de8e6e3c348385a0"
+    },
+    {
+      "guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "name": "HMI_Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "078ec96e-ea88-4e68-9141-65ccce6f8586",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\.cds-object.xml",
+      "hash": "92612588b5cbfd398322a2f2dcb54c2d8a127f01"
+    },
+    {
+      "guid": "30d07b92-0ade-4ea3-b304-9044219a6b84",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Library Manager.xml",
+      "hash": "1745ed450550cd85bd08946604aac3bb467cc15c"
+    },
+    {
+      "guid": "11ee959a-8212-46eb-802b-3cb93f00b182",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Task Configuration\\.cds-object.xml",
+      "hash": "80531ec998d410d7bcec01da617aa351b3ae06d5"
+    },
+    {
+      "guid": "4ba5eb76-498c-49c3-99a2-bb89e17d0523",
+      "name": "03_Object_POU_ST",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\.cds-object.xml",
+      "hash": "66a40a03b6a78ede55d1235ebb8c4811992a378e"
+    },
+    {
+      "guid": "dbff9c3f-8f12-464d-b9b4-815a6b768fbd",
+      "name": "02_Object_GVL",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\.cds-object.xml",
+      "hash": "a16d4dcbc38aa9ba7e885d58084ba743a314a9e0"
+    },
+    {
+      "guid": "a92623cf-9736-47ac-a389-e92762ce0bb9",
+      "name": "01_Object_DUT",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\.cds-object.xml",
+      "hash": "f2a3f583d318ad7b962dfc86456b165a73d3e346"
+    },
+    {
+      "guid": "d422980e-2301-4e52-bd8d-baccf5dc1040",
+      "name": "04_additional",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\04_additional\\.cds-object.xml",
+      "hash": "5573afdfcb96bc46c9b9c11aa9d9ca628ef39143"
+    },
+    {
+      "guid": "7f56107e-91da-4d4b-9656-44a39d564940",
+      "name": "Symbols",
+      "type_guid": "21d4fe94-4123-4e23-9091-ead220afbd1f",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Symbols.xml",
+      "hash": "a1760b5bf49e8276c5340675055e791e82af92c6"
+    },
+    {
+      "guid": "3b105f16-6725-42a7-96ff-b5bc06ca4f12",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\Library Manager.xml",
+      "hash": "dc2a2e83b140167694c16f3b70c2e86938d2a453"
+    },
+    {
+      "guid": "161dadab-a30d-4e76-9b4f-d0a5bafce68c",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\Task Configuration\\.cds-object.xml",
+      "hash": "b956214ca950263667d14cfcc26126acad9dadab"
+    },
+    {
+      "guid": "e3ee8fa4-dcf4-440f-9142-1bd1164fa13d",
+      "name": "03_Object_POU_LD",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\.cds-object.xml",
+      "hash": "20dfdbb7dccaa40fccdfdcf43c4c396e1c3446ac"
+    },
+    {
+      "guid": "51acf929-0431-4a65-a68d-4e24c18f370c",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\Library Manager.xml",
+      "hash": "438b377bd09f39a85cd4305647f0ae821c5cc579"
+    },
+    {
+      "guid": "95684747-453b-4bb8-9aea-fa32f65da674",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\Task Configuration\\.cds-object.xml",
+      "hash": "80696e511fb07ae6fc5c95cfeefc9ab948d58a8d"
+    },
+    {
+      "guid": "8b92f719-46c7-485a-a181-8bf4a58468e5",
+      "name": "03_Object_POU_CFC",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\.cds-object.xml",
+      "hash": "2a3677f422add5222ae00203942dfb71c722a067"
+    },
+    {
+      "guid": "1376554d-8d53-478c-955a-16108ca14c48",
+      "name": "04_Persistent_vars",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\04_Persistent_vars.xml",
+      "hash": "25426cf21d195c7ad94d40d48575aea39be7df77"
+    },
+    {
+      "guid": "ff7b9961-fa31-4467-8f1c-4d10ff5218eb",
+      "name": "01_Object_DUT",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\.cds-object.xml",
+      "hash": "70a135becb7d4d69def23ff7c18cdc1309150700"
+    },
+    {
+      "guid": "9fac40f9-f0b7-4edb-ab93-a4eec9dd8b21",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "0a8d33b4-51a6-46f5-9dc0-b2b47a2aa1fa",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\Library Manager.xml",
+      "hash": "6385c10f163580a94e177b78858c05a115ccaa66"
+    },
+    {
+      "guid": "93651c1b-f085-465f-b385-ebd1d5b1a0a9",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "0a8d33b4-51a6-46f5-9dc0-b2b47a2aa1fa",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\Task Configuration\\.cds-object.xml",
+      "hash": "ee7743eb43eb4df81416d242200a191d70706322"
+    },
+    {
+      "guid": "43c0f3c8-fb90-4957-a771-3efa251b06dd",
+      "name": "03_Object_POU_FBD",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\.cds-object.xml",
+      "hash": "5a68fe01fb79297d325b62623be1f05479af061e"
+    },
+    {
+      "guid": "1f003b8c-3b4f-4aaa-8f1b-ba5d48272a5a",
+      "name": "Modbus_TCP_Server",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "c2cd525a-25a4-4aa9-83f6-e8d3ddb47dbb",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Ethernet_Modbus\\Modbus_TCP_Client\\Modbus_TCP_Server.xml",
+      "hash": "51d86304de2168cfa288f77287a32400bcaf2a83"
+    },
+    {
+      "guid": "2dfdb0b7-6aa1-48f6-81cf-cb9becb77f37",
+      "name": "EL6631_0010_V2_0",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "1bf1867c-aaa0-45f8-8ccf-55427108eb8f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Ethernet_Profinet\\PN_Controller\\EL6631_0010_V2_0.xml",
+      "hash": "4bdeb6a2f574fcd8ded9615bf0890d37c0bb0129"
+    },
+    {
+      "guid": "d0585167-07a9-4441-8cd8-d6c9560f8904",
+      "name": "SM_Drive_EtherCAT_ControlTechniques",
+      "type_guid": "085766fd-043e-4545-8e8d-d651d56d5d3b",
+      "parent_guid": "21b8d9c1-1cca-4e65-829d-fb7dfed9b863",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\EtherCAT_Master\\Unidrive_SP_Closed_Loop\\SM_Drive_EtherCAT_ControlTechniques.xml",
+      "hash": "c3f08b19a129f02ecf973305582ea6327aecec5e"
+    },
+    {
+      "guid": "c4f2766d-ca96-40d0-982e-b68a72fe6e93",
+      "name": "Modbus_Server_COM_Port",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "c9332910-e3cc-4aaa-8136-c3e3e9b4d010",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\Modbus_COM\\Modbus_Client_COM_Port\\Modbus_Server_COM_Port.xml",
+      "hash": "36b8a9f793da933d241ea9fd9e96db5b61077ee4"
+    },
+    {
+      "guid": "8feb9f98-918c-4124-b73b-f5c52df17dce",
+      "name": "EPOS4_50_5",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "ae66a67a-e7ce-4b2c-89e2-bf9709dde0f1",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\CANbus\\CANopen_Manager_SoftMotion\\EPOS4_50_5\\.cds-object.xml",
+      "hash": "55ed61cb36cb653cfe14210f8749f97ec3984bf8"
+    },
+    {
+      "guid": "db955ea3-60cb-089c-9082-3018d00333c4",
+      "name": "__VisualizationStyle",
+      "type_guid": "8e687a04-7ca7-42d3-be06-fcbda676c5ef",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\__VisualizationStyle.xml",
+      "hash": "e57f40faedbb2484e4bfb99daa5c0910c2b580f5"
+    },
+    {
+      "guid": "acb9c34f-7ac3-4e19-9ff8-7d5fe9307e9c",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Library Manager.xml",
+      "hash": "5c5b06e451dde22f7d98b809598f997fbc709bb0"
+    },
+    {
+      "guid": "c860d071-2aac-4cbe-af75-13be8036c2f2",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Task Configuration\\.cds-object.xml",
+      "hash": "ed9cad3ce560d69aa967fee7ca0fff0587ab255b"
+    },
+    {
+      "guid": "94c67990-0788-4dfe-aa88-6d119856bc75",
+      "name": "Visualization Manager",
+      "type_guid": "4d3fdb8f-ab50-4c35-9d3a-d4bb9bb9a628",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Visualization Manager\\.cds-object.xml",
+      "hash": "46d4c77f124d8db864b820c8c6cbcad963c7a6fc"
+    },
+    {
+      "guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "name": "Alarm Configuration",
+      "type_guid": "c0a56ce5-14a3-4757-ac56-3eab44c974b3",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\.cds-object.xml",
+      "hash": "5333165bb746b37879cded34c7b6ac2fa37b343c"
+    },
+    {
+      "guid": "4889fb38-7266-44bf-851c-8ae9fca27f03",
+      "name": "MFL_VISU",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\.cds-object.xml",
+      "hash": "b99a394573e6ebbfdc257a7926f9efa2ae9f0967"
+    },
+    {
+      "guid": "961e206e-3775-443c-aa5a-20441f1c46a8",
+      "name": "Symbols",
+      "type_guid": "21d4fe94-4123-4e23-9091-ead220afbd1f",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Symbols.xml",
+      "hash": "fa757c4358735677f202ae01a1fe67d12e60c916"
+    },
+    {
+      "guid": "81c01a76-bace-421e-842b-0f8fb0e6c816",
+      "name": "Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "11ee959a-8212-46eb-802b-3cb93f00b182",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Task Configuration\\Task.xml",
+      "hash": "224c900e80d1f99d7a64e692df945509b3518319"
+    },
+    {
+      "guid": "a7a495e7-2759-4cdf-857d-ca5dd5166512",
+      "name": "Profinet_IOTask",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "11ee959a-8212-46eb-802b-3cb93f00b182",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Task Configuration\\Profinet_IOTask.xml",
+      "hash": "c7d5af6b79140232dd89c8010d1a880f228304ed"
+    },
+    {
+      "guid": "c97c2ace-9a5e-42f6-b32c-5c76913fc3a7",
+      "name": "Profinet_CommunicationTask",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "11ee959a-8212-46eb-802b-3cb93f00b182",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Task Configuration\\Profinet_CommunicationTask.xml",
+      "hash": "3292c951069162ec3c423a59760dbcb7c8119ce6"
+    },
+    {
+      "guid": "754fa7f3-dbe3-47f1-a44d-0cdd951e8fc4",
+      "name": "EtherCAT_Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "11ee959a-8212-46eb-802b-3cb93f00b182",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\Task Configuration\\EtherCAT_Task.xml",
+      "hash": "5ba14006381418fcb32bcd8c4afed78490a1ef16"
+    },
+    {
+      "guid": "7605a14b-cd1b-431f-a32a-a818aaafd22d",
+      "name": "01_PROGRAMM",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\.cds-object.xml",
+      "hash": "0ba30aad7cfceaaebcb545567eced47d4139443d"
+    },
+    {
+      "guid": "10d46e22-3e34-4dea-a632-e6bdfc4788ba",
+      "name": "02_FunctioanalBlock",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\.cds-object.xml",
+      "hash": "bb94dedda637d1c58bf8568257a5005d7a95b9d6"
+    },
+    {
+      "guid": "9dadc9bd-5386-4912-9c0a-898748498e37",
+      "name": "03_Function",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\.cds-object.xml",
+      "hash": "c7162d230e65fcb97c3a1a520991ccf903d6f1f0"
+    },
+    {
+      "guid": "558cd281-2089-4ef2-b2e6-c5973de77295",
+      "name": "04_Interface",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\04_Interface\\.cds-object.xml",
+      "hash": "dc20cf974e4f2ff3507c7dd538b73ab79e9f9102"
+    },
+    {
+      "guid": "623995e2-f111-4b00-a79b-2d01d60cb70e",
+      "name": "_02_TaskLocalGVL",
+      "type_guid": "c2cda7a9-0ba4-4146-b563-22a42fa0eb72",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_02_TaskLocalGVL.xml",
+      "hash": "c0e0c4a8d0aa66a8fc30876f9bfbc940aa44049f",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_02_TaskLocalGVL.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_02_TaskLocalGVL.st": "41e622f9ba086131d7d3f5f8994ea867736eb228"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_02_TaskLocalGVL.st": false
+      }
+    },
+    {
+      "guid": "905f2d01-6e35-43fb-b39e-203b9bc2b280",
+      "name": "_01_GVL",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_01_GVL.xml",
+      "hash": "facf959ed23f7797e3a6abf7811b9ab17aaa6c04",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_01_GVL.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_01_GVL.st": "50d2188ff9da2f4c8472cea762be6ba7f80528b9"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_01_GVL.st": false
+      }
+    },
+    {
+      "guid": "82c7511c-cc77-460d-a0b1-32662b001237",
+      "name": "_03_NVL_sender",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_03_NVL_sender.xml",
+      "hash": "06dcbddb2491b057493ea7b1347eb6aeb4abad8a",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_03_NVL_sender.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_03_NVL_sender.st": "9247d3c25652b67c2c1ba6e37f2a31352dc8b84d"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\02_Object_GVL\\_03_NVL_sender.st": false
+      }
+    },
+    {
+      "guid": "af13e21d-cef1-411c-aea3-f741fa5cd05c",
+      "name": "_04_DUT_UNION",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_04_DUT_UNION.xml",
+      "hash": "5ced1900781b911ad0a7b67d014bae7061292d27",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_04_DUT_UNION.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_04_DUT_UNION.st": "096c668f70b5316f65daa516a5188800c97c937a"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_04_DUT_UNION.st": false
+      }
+    },
+    {
+      "guid": "618aab5c-ddd9-4daf-af2f-6943fd1b9162",
+      "name": "_02_DUT_Enumeration",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_02_DUT_Enumeration.xml",
+      "hash": "a9eb251e5cc6f7574471d30a277d29593e54cce8",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_02_DUT_Enumeration.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_02_DUT_Enumeration.st": "226a1a1c0cec53dcd15288ea2842c1021a827997"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_02_DUT_Enumeration.st": false
+      }
+    },
+    {
+      "guid": "4178abf1-08bb-4b19-afa4-cee62230d4ae",
+      "name": "_03_DUT_Alias",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_03_DUT_Alias.xml",
+      "hash": "19728d7fcb07480b6588c72c8fd29a4a70c5306a",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_03_DUT_Alias.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_03_DUT_Alias.st": "45274dffcefb197a250dada93cccf2b3ba5598aa"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_03_DUT_Alias.st": false
+      }
+    },
+    {
+      "guid": "4187ba4c-2b7a-425d-9c68-6cb37a0a9288",
+      "name": "_01_DUT_STRUCTURE",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.xml",
+      "hash": "46875b99f448b5a0c477251c2368497c6032bb41",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.st": "06c0e123f082c37b4e3d45a26b8391c06d537e54"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.st": false
+      }
+    },
+    {
+      "guid": "2332cdef-28b8-4f84-ba39-dc0551a87916",
+      "name": "_01_DUT_STRUCTURE2",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.xml",
+      "hash": "cd336c5ecb2d9e3124b4838896d25fe3d084ffac",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.st": "a253d9f3ed8ef2959c5631d397c893e64ae73579"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.st": false
+      }
+    },
+    {
+      "guid": "32542351-8ff4-400d-96a4-3211fed9ca2e",
+      "name": "TextList",
+      "type_guid": "2bef0454-1bd3-412a-ac2c-af0f31dbc40f",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\04_additional\\TextList.xml",
+      "hash": "975832dd9cf169e0ea640781b0f7109a761ec26a",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\04_additional\\TextList.csv"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\04_additional\\TextList.csv": "a8df11a7cbc2d9500e35b41e360a175beda49cd1"
+      },
+      "projection_extractors": {
+        "PLC\\PLC Logic\\ST_Application\\04_additional\\TextList.csv": "textlist_csv"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\04_additional\\TextList.csv": true
+      }
+    },
+    {
+      "guid": "9c6f2545-8750-4468-9d44-5841d3a2ef49",
+      "name": "Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "161dadab-a30d-4e76-9b4f-d0a5bafce68c",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\Task Configuration\\Task.xml",
+      "hash": "7a195170e09839527e20884cd921cbc24812d49c"
+    },
+    {
+      "guid": "7002ded6-e176-4f56-8938-c45d45212c56",
+      "name": "01_PROGRAMM",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\01_PROGRAMM\\.cds-object.xml",
+      "hash": "0ffcab8b55ac49ac252cb18cd5b3b12d99248565"
+    },
+    {
+      "guid": "f0b3a0fc-7267-4ff9-968e-11ada2484dd8",
+      "name": "02_FunctionalBlock",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\02_FunctionalBlock\\.cds-object.xml",
+      "hash": "4b05a8d2406ef48d6e099cbd9bb25290a4882867"
+    },
+    {
+      "guid": "3fd53dc7-85b7-4cc7-b320-783df8f682a5",
+      "name": "03_Function",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\03_Function\\.cds-object.xml",
+      "hash": "f9b3aca4386a00f9689204a513ebf9e2b0bd71dd"
+    },
+    {
+      "guid": "4b8bcd6e-541b-48b7-8721-2a0e883f41a8",
+      "name": "Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "95684747-453b-4bb8-9aea-fa32f65da674",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\Task Configuration\\Task.xml",
+      "hash": "2030c91d8297da863cae52df83cabb0f73f83ca7"
+    },
+    {
+      "guid": "c19e8974-3bf8-4f84-aa16-205221f137a9",
+      "name": "01_PROGRAMM",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\01_PROGRAMM\\.cds-object.xml",
+      "hash": "0ed42acf619397ff6b9c884936304f28609be3ca"
+    },
+    {
+      "guid": "d5a79e89-176c-4a4e-a975-eff76c458726",
+      "name": "02_FunctionalBlock",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\02_FunctionalBlock\\.cds-object.xml",
+      "hash": "fa1f68c85fd48ac9b62bedf23fb34690c4a227dd"
+    },
+    {
+      "guid": "dd63260c-6b39-4bcd-a1f1-12e2a69c3065",
+      "name": "03_Function",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\03_Function\\.cds-object.xml",
+      "hash": "20b5d70175f5a0fa79798ec93432efbf25d4e533"
+    },
+    {
+      "guid": "7b45d292-5d0c-4257-93ee-fa7067394612",
+      "name": "_04_DUT_UNION",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_04_DUT_UNION.xml",
+      "hash": "33d12cdd58ae415ffed3c4213c50c67100b6e356",
+      "projection_paths": [
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_04_DUT_UNION.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_04_DUT_UNION.st": "096c668f70b5316f65daa516a5188800c97c937a"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_04_DUT_UNION.st": false
+      }
+    },
+    {
+      "guid": "752642de-dfe9-4cae-a221-c8a44bb8409f",
+      "name": "_02_DUT_Enumeration",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_02_DUT_Enumeration.xml",
+      "hash": "70fcbe835d8375790ef5139ed7f62d658bbdc6e1",
+      "projection_paths": [
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_02_DUT_Enumeration.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_02_DUT_Enumeration.st": "226a1a1c0cec53dcd15288ea2842c1021a827997"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_02_DUT_Enumeration.st": false
+      }
+    },
+    {
+      "guid": "75274a1d-8952-44b5-b74a-da8e1f6b47c7",
+      "name": "_03_DUT_Alias",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_03_DUT_Alias.xml",
+      "hash": "6934357095939b8b1c284d2b1d75eae938db5827",
+      "projection_paths": [
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_03_DUT_Alias.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_03_DUT_Alias.st": "45274dffcefb197a250dada93cccf2b3ba5598aa"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_03_DUT_Alias.st": false
+      }
+    },
+    {
+      "guid": "8850f29d-9389-4e50-89c1-e43918e74676",
+      "name": "_01_DUT_STRUCTURE",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.xml",
+      "hash": "1433b9bdc9bd786a87bd07fc368bcd8ec11a3fbe",
+      "projection_paths": [
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.st": "06c0e123f082c37b4e3d45a26b8391c06d537e54"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE.st": false
+      }
+    },
+    {
+      "guid": "5f5b08fd-49b0-4015-b36f-8b077b464aa3",
+      "name": "_01_DUT_STRUCTURE2",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.xml",
+      "hash": "7cbfc0e8e846d93f7a6d357d7b2393e1b7df57ba",
+      "projection_paths": [
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.st": "a253d9f3ed8ef2959c5631d397c893e64ae73579"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\CFC_Application\\01_Object_DUT\\_01_DUT_STRUCTURE2.st": false
+      }
+    },
+    {
+      "guid": "cc665f16-7e3b-44ee-8da9-8bd1b9691989",
+      "name": "Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "93651c1b-f085-465f-b385-ebd1d5b1a0a9",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\Task Configuration\\Task.xml",
+      "hash": "ac7ddc71919fdb48551116540bd5d75e330e781b"
+    },
+    {
+      "guid": "1cd3d7b2-bee9-4f8a-a661-f1e2c4c13487",
+      "name": "01_PROGRAMM",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\01_PROGRAMM.xml",
+      "hash": "4234e0daeb8b3d70c46af5fd2bc2d9804e1e6688"
+    },
+    {
+      "guid": "09414c3e-31fa-44dc-827d-5e66111b95bc",
+      "name": "02_FunctionalBlock",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\02_FunctionalBlock\\.cds-object.xml",
+      "hash": "98ff0b2d19596d3f4d196d808c6febb1ee231e42"
+    },
+    {
+      "guid": "aa6e8eba-f1bf-4583-8c0b-efee3f22acbd",
+      "name": "03_Function",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\03_Function.xml",
+      "hash": "7a340ec3f2bc9e86cccccf2510e05cb0b1539c30"
+    },
+    {
+      "guid": "536dfddc-a6ae-4e02-b58e-7f78704e5d3c",
+      "name": "SM3_Drive_CAN_Maxon_EPOS4",
+      "type_guid": "085766fd-043e-4545-8e8d-d651d56d5d3b",
+      "parent_guid": "8feb9f98-918c-4124-b73b-f5c52df17dce",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\CANbus\\CANopen_Manager_SoftMotion\\EPOS4_50_5\\SM3_Drive_CAN_Maxon_EPOS4\\.cds-object.xml",
+      "hash": "ecb5c42f559bc302c1e640449509e7fe90444ba8"
+    },
+    {
+      "guid": "adc156b0-ea8d-4f41-a9bc-d146c7510612",
+      "name": "VISU_TASK",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "c860d071-2aac-4cbe-af75-13be8036c2f2",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Task Configuration\\VISU_TASK.xml",
+      "hash": "29cf3121bde8b2afdbf3955cce27ec2b16565958"
+    },
+    {
+      "guid": "4f3ff050-27bc-4606-a09b-7d496ee3d648",
+      "name": "Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "c860d071-2aac-4cbe-af75-13be8036c2f2",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Task Configuration\\Task.xml",
+      "hash": "b53d1997e5bd9ab95a197f7bbeb59ee4ac4c7ba5"
+    },
+    {
+      "guid": "ecad2226-f230-4d11-a112-ded5d6f6a0dc",
+      "name": "AlarmManagerTask",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "c860d071-2aac-4cbe-af75-13be8036c2f2",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Task Configuration\\AlarmManagerTask.xml",
+      "hash": "d36077405c66b52d6d273bb6f58a73c4e24f4786"
+    },
+    {
+      "guid": "5626f626-c69f-43da-bad5-a491442c3e28",
+      "name": "TargetVisu",
+      "type_guid": "bc63f5fa-d286-4786-994e-7b27e4f97bd5",
+      "parent_guid": "94c67990-0788-4dfe-aa88-6d119856bc75",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Visualization Manager\\TargetVisu.xml",
+      "hash": "f7bb363eec1a9a2dd27c791225116247f44b77bd"
+    },
+    {
+      "guid": "c15c94a7-5b98-4b86-8a36-c7eee6e89dae",
+      "name": "WebVisu",
+      "type_guid": "0fdbf158-1ae0-47d9-9269-cd84be308e9d",
+      "parent_guid": "94c67990-0788-4dfe-aa88-6d119856bc75",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Visualization Manager\\WebVisu.xml",
+      "hash": "63f6a8ae5d24026f4f3e0d6ea9273c1c7a383852"
+    },
+    {
+      "guid": "54f351f2-e0cc-401e-af24-268e10859c59",
+      "name": "Error",
+      "type_guid": "b8b46f61-c7c1-4259-87e4-26fe674798f9",
+      "parent_guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\Error.xml",
+      "hash": "4e68bbe5ebcaceea16fcd943823615edc67678b9"
+    },
+    {
+      "guid": "5acf2f51-92c8-49a4-b618-24a6646198f5",
+      "name": "Warning",
+      "type_guid": "b8b46f61-c7c1-4259-87e4-26fe674798f9",
+      "parent_guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\Warning.xml",
+      "hash": "dc10ae2d4148b574fe0444274844be0621e91ef2"
+    },
+    {
+      "guid": "db2525b7-6051-4733-85f7-124510cae8e5",
+      "name": "Info",
+      "type_guid": "b8b46f61-c7c1-4259-87e4-26fe674798f9",
+      "parent_guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\Info.xml",
+      "hash": "e2fb4a076877350eac15d6b95d45b89e0ca5ec03"
+    },
+    {
+      "guid": "a2202fea-ea51-4364-9f50-4b15260bfb68",
+      "name": "AlarmStorage",
+      "type_guid": "5bd56248-46fc-4108-be33-ed01ad87d070",
+      "parent_guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\AlarmStorage.xml",
+      "hash": "599e6c83892bc33bced8bf01ca0c82840a3d6289"
+    },
+    {
+      "guid": "4946b228-fa41-40fd-ae1c-24878e7b5404",
+      "name": "AlarmGroup",
+      "type_guid": "21f4ed1d-ec95-4666-820e-4abf64d93d6b",
+      "parent_guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\AlarmGroup__4946b228.xml",
+      "hash": "dc482c37ff71d9af81c0504b5ecedef71ed0b8df"
+    },
+    {
+      "guid": "4cec7f14-8471-4e16-8331-b9b6bfce0883",
+      "name": "AlarmGroup",
+      "type_guid": "2bef0454-1bd3-412a-ac2c-af0f31dbc40f",
+      "parent_guid": "26f65400-683f-442b-9e85-613a55574aef",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Alarm Configuration\\AlarmGroup__4cec7f14.xml",
+      "hash": "f6bf911792801fb7d65580eaab53e6bbca5b8383"
+    },
+    {
+      "guid": "a73fb1a9-4828-43a0-9940-b3226ea6f07d",
+      "name": "ZONE_HMI",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ZONE_HMI.xml",
+      "hash": "1404cf27f06e7c5038381d484c7ceccf1f9d8a38",
+      "projection_paths": [
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ZONE_HMI.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ZONE_HMI.st": "110c7c3cbfc6c442027144359e9eb369cdc68e1d"
+      },
+      "projection_import_safe": {
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ZONE_HMI.st": false
+      }
+    },
+    {
+      "guid": "5e04e7b0-bbfc-4d65-a146-66dabba371b5",
+      "name": "DUT_CONV_FRAME",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\DUT_CONV_FRAME.xml",
+      "hash": "e5dbc08d70f14acd078be0503cf39f4767e8e9d6",
+      "projection_paths": [
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\DUT_CONV_FRAME.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\DUT_CONV_FRAME.st": "52cfd2a69740dc7e5bc83ca9904831f6eccf19f6"
+      },
+      "projection_import_safe": {
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\DUT_CONV_FRAME.st": false
+      }
+    },
+    {
+      "guid": "f96c6310-32ee-4830-9e81-a5dc29cfa19b",
+      "name": "Screen",
+      "type_guid": "f18bec89-9fef-401d-9953-2f11739a6808",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\Screen.xml",
+      "hash": "d7bb1fa28863621822a59280852b16dacf8d8206"
+    },
+    {
+      "guid": "aff6af3e-f554-433c-9436-7a276ca967a5",
+      "name": "FRAME_TWB",
+      "type_guid": "f18bec89-9fef-401d-9953-2f11739a6808",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\FRAME_TWB.xml",
+      "hash": "965b651788efbafa5feebbe1dd1c42083ff562a4"
+    },
+    {
+      "guid": "4424dfc5-bc68-4c17-8e84-c04b67f366fe",
+      "name": "ENUM_SegmentStatus",
+      "type_guid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ENUM_SegmentStatus.xml",
+      "hash": "0e870dfb08375c41ed002838d017cfa57b8aebc9",
+      "projection_paths": [
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ENUM_SegmentStatus.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ENUM_SegmentStatus.st": "baf58107b5cf7d5196cc9bb425cd66da7331c411"
+      },
+      "projection_import_safe": {
+        "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\ENUM_SegmentStatus.st": false
+      }
+    },
+    {
+      "guid": "321a591e-4fa2-4c54-b2ab-54b15a0a62ad",
+      "name": "Screen_1",
+      "type_guid": "f18bec89-9fef-401d-9953-2f11739a6808",
+      "parent_guid": "80340b67-ae53-49fd-b78e-efaac9841b7f",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\Screen_1.xml",
+      "hash": "b0e7d49beb43eb4385d7bdd2cb37f4f96f9d14b9"
+    },
+    {
+      "guid": "5d544d57-6854-4c34-819c-69f8b9ff1e84",
+      "name": "ST_PROGRAMM",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.xml",
+      "hash": "e1a7d828118357830b97a3ba946eeaef7435493c",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.st": "cd8c51cfc67b699b4544970378abe1df3c27b978"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.st": false
+      }
+    },
+    {
+      "guid": "8898e2d8-9844-41ab-9f44-8098928012b9",
+      "name": "ST_PROGRAMM_AUX",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM_AUX.xml",
+      "hash": "ef57a0b9bcc9f7236396062fd0cb3f286544e5be",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM_AUX.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM_AUX.st": "1d256e49fc3e68b9106da3b6a2877efd3cc6fac3"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM_AUX.st": false
+      }
+    },
+    {
+      "guid": "07786fe0-1556-4937-bed3-5c128d9f0374",
+      "name": "ST_FB",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.xml",
+      "hash": "6a1d6c8c8282f86e66c2942620f9b4ddcbe45d8f",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.st": "0222427c2ca42e4ad52271d6011f5baa504ae938"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.st": false
+      }
+    },
+    {
+      "guid": "c84aea2e-a26b-45b2-8765-bb3947189c7d",
+      "name": "ST_BLOCK_WITH_INTERFACE",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_BLOCK_WITH_INTERFACE.xml",
+      "hash": "b2e4961ab0d3ea4fa6d8fd40dbf3ec4f2cfcee74",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_BLOCK_WITH_INTERFACE.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_BLOCK_WITH_INTERFACE.st": "4c44d291f64787ebd2af380960f6b6308cfc9579"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_BLOCK_WITH_INTERFACE.st": false
+      }
+    },
+    {
+      "guid": "a0a9ac24-88f5-49ba-8687-9fcd45df5031",
+      "name": "ST_Function",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\ST_Function.xml",
+      "hash": "9630d966026446b083990598689847fe36dd2831",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\ST_Function.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\ST_Function.st": "defd9db9d22727e80dd2d4045d9d684b94ad354a"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\ST_Function.st": false
+      }
+    },
+    {
+      "guid": "dededd56-439a-477c-9c77-ab5ddfd2df5f",
+      "name": "Empty_impementation_fn",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\Empty_impementation_fn.xml",
+      "hash": "9f8731b8c4fb3e3515a2ad3f42e22ab094f0473c",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\Empty_impementation_fn.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\Empty_impementation_fn.st": "d5e930bc6030f5eb4d76545de154f31a973ec745"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\Empty_impementation_fn.st": false
+      }
+    },
+    {
+      "guid": "c8507131-2ec3-49d5-bff9-71345dd2482a",
+      "name": "fnBEETWEEN",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\fnBEETWEEN.xml",
+      "hash": "6ec8f272269bcd552cb1245f5262a795e9e77510",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\fnBEETWEEN.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\fnBEETWEEN.st": "0b3aff96ceabedaaadac8530f0083b9af5448f98"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\03_Function\\fnBEETWEEN.st": false
+      }
+    },
+    {
+      "guid": "ce9fca1e-7d66-4742-9182-b6ee3adfedf1",
+      "name": "ITF_Base",
+      "type_guid": "6654496c-404d-479a-aad2-8551054e5f1e",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\04_Interface\\ITF_Base.xml",
+      "hash": "089f2c5f9d3a804faca6eff8f7a1121dd93ac2db"
+    },
+    {
+      "guid": "33300112-ec4a-4ce6-b0df-76eec540c4bb",
+      "name": "ITF_Child",
+      "type_guid": "6654496c-404d-479a-aad2-8551054e5f1e",
+      "parent_guid": "4f599365-b37f-4f7e-9ace-264406373425",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\04_Interface\\ITF_Child\\.cds-object.xml",
+      "hash": "057d0fe6cb7f76d5b2141b79a8d93c1259e0bb0c"
+    },
+    {
+      "guid": "a3259920-9f0e-4239-82ae-93a9c6f69964",
+      "name": "LD_PROGRAMM",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\01_PROGRAMM\\LD_PROGRAMM.xml",
+      "hash": "25425cc6d98bb527add668ef9529cbfdf2c1b30b"
+    },
+    {
+      "guid": "723bbafc-7ad2-4948-91dc-bd4e0ee5f698",
+      "name": "LD2_PROGRAMM",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\01_PROGRAMM\\LD2_PROGRAMM.xml",
+      "hash": "2bf4a119f75aa76e515b7ab82b02543dd2c407be"
+    },
+    {
+      "guid": "6833c792-1f44-4271-b45b-910f19dd641d",
+      "name": "LD_FB",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\02_FunctionalBlock\\LD_FB.xml",
+      "hash": "813c62f194153e13dbdd1a55857e834dbe7a6c4b"
+    },
+    {
+      "guid": "852d3b4c-b90a-43c2-ad99-0f9bd1fd9001",
+      "name": "LD_Function",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "0be39091-6a52-4b83-9f16-a7ce6335ec90",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\LD_Application\\03_Object_POU_LD\\03_Function\\LD_Function.xml",
+      "hash": "ce97773046f32807afb24af51c0e762c6a9b0ce9"
+    },
+    {
+      "guid": "17cc45d2-001c-4cac-a139-05544b7e525a",
+      "name": "CFC_PROGRAMM",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\01_PROGRAMM\\CFC_PROGRAMM.xml",
+      "hash": "9558fd004d7a750c8019f8870b4fb482dec3eeff"
+    },
+    {
+      "guid": "7fa766bd-0045-4ff9-aef9-8f3f659f0996",
+      "name": "CFC_Page_PROGRAMM",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\01_PROGRAMM\\CFC_Page_PROGRAMM.xml",
+      "hash": "92b846094ad356284bf4b12b372a3da7f423245f"
+    },
+    {
+      "guid": "5aebb0ce-b701-4841-b442-8e5ce71fe8d4",
+      "name": "CFC_FB",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\02_FunctionalBlock\\CFC_FB.xml",
+      "hash": "b19fe9d0f66b429a8e4572dccf3b35f1243ceec9"
+    },
+    {
+      "guid": "ad7f2de0-5b1c-4037-9eb0-8b1b001256ed",
+      "name": "CFC_R_TRIG",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "873b61c2-91ed-46e6-8e97-8ff63b3cf29d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\CFC_Application\\03_Object_POU_CFC\\03_Function\\CFC_R_TRIG.xml",
+      "hash": "1b44b239bafb3231c3c08aa8f9d9e0067ac4763f"
+    },
+    {
+      "guid": "895fdfa9-7e1a-4685-ada9-9b704c3c072a",
+      "name": "FBD_FunctionBlock",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "0a8d33b4-51a6-46f5-9dc0-b2b47a2aa1fa",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\02_FunctionalBlock\\FBD_FunctionBlock.xml",
+      "hash": "68d93f567c1786ca67b3c43a356ad2f9d7bc783a"
+    },
+    {
+      "guid": "44c9f4c2-f3dd-4d81-a33d-e4513fd883e1",
+      "name": "SM_Drive_Logical",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": "536dfddc-a6ae-4e02-b58e-7f78704e5d3c",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\CANbus\\CANopen_Manager_SoftMotion\\EPOS4_50_5\\SM3_Drive_CAN_Maxon_EPOS4\\SM_Drive_Logical.xml",
+      "hash": "995133a0d08fd70f8eae3ad5a3f924f56dec256f"
+    },
+    {
+      "guid": "12c6481a-fa29-4cf5-9b0b-6c098c8464c2",
+      "name": "ST_METHOD",
+      "type_guid": "f8a58466-d7f6-439f-bbb8-d4600e41d099",
+      "parent_guid": "5d544d57-6854-4c34-819c-69f8b9ff1e84",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_METHOD.xml",
+      "hash": "5732de5b1251cb68ee4d884530a36c739caeefad",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_METHOD.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_METHOD.st": "f552927ed868c118480c1b2aee93863f25c30c78"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_METHOD.st": false
+      }
+    },
+    {
+      "guid": "dbde08cb-21da-41ee-bce3-ba861cfde563",
+      "name": "ST_PROPERTY",
+      "type_guid": "5a3b8626-d3e9-4f37-98b5-66420063d91e",
+      "parent_guid": "5d544d57-6854-4c34-819c-69f8b9ff1e84",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.xml",
+      "hash": "b404eaaa354364486ba5ba20e5df51a246b2b1df",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.st": "f03293b360093595dc1f223983e6fe2a084608e3"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.st": false
+      }
+    },
+    {
+      "guid": "56f6ffa3-5b62-4934-924f-738be0dfbf98",
+      "name": "ST_ACTION",
+      "type_guid": "8ac092e5-3128-4e26-9e7e-11016c6684f2",
+      "parent_guid": "5d544d57-6854-4c34-819c-69f8b9ff1e84",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_ACTION.xml",
+      "hash": "f60370f62867dfff26de946845fd3b3807b8f0ec",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_ACTION.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_ACTION.st": "54f86cee78fd41c673032309ba14f7db043bcc87"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_ACTION.st": false
+      }
+    },
+    {
+      "guid": "6cbc00ab-4a5c-4d8b-9e14-f899333d5a48",
+      "name": "ST_FB_Action",
+      "type_guid": "8ac092e5-3128-4e26-9e7e-11016c6684f2",
+      "parent_guid": "07786fe0-1556-4937-bed3-5c128d9f0374",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Action.xml",
+      "hash": "06207c586b8c2407bd72199ede0cf142c1289336",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Action.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Action.st": "51c8d2240d356a0e8289e7812bd0082623c0cf42"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Action.st": false
+      }
+    },
+    {
+      "guid": "6e74a49f-be19-4adc-bf94-4957887bbe50",
+      "name": "ST_FB_Method",
+      "type_guid": "f8a58466-d7f6-439f-bbb8-d4600e41d099",
+      "parent_guid": "07786fe0-1556-4937-bed3-5c128d9f0374",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Method.xml",
+      "hash": "5f749fd41ee6665f514242c0f284ed5ff32dcefc",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Method.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Method.st": "0918304f9751499af1b7e072c4e3c7565ab66894"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Method.st": false
+      }
+    },
+    {
+      "guid": "f512aa00-18a4-43e6-88f4-28170c756e41",
+      "name": "ST_FB_Property",
+      "type_guid": "5a3b8626-d3e9-4f37-98b5-66420063d91e",
+      "parent_guid": "07786fe0-1556-4937-bed3-5c128d9f0374",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.xml",
+      "hash": "ee77312d2451594862da21e8795c9e6c0d718815",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.st": "1526ff7d00a39fd0163479225d4db034c6be6a5f"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.st": false
+      }
+    },
+    {
+      "guid": "f67b4487-640b-4e8a-9a01-7b327f841e39",
+      "name": "Get_Value",
+      "type_guid": "f89f7675-27f1-46b3-8abb-b7da8e774ffd",
+      "parent_guid": "33300112-ec4a-4ce6-b0df-76eec540c4bb",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\04_Interface\\ITF_Child\\Get_Value.xml",
+      "hash": "1481a9c2031363fb4ee3263b18f5a3087f0333cb"
+    },
+    {
+      "guid": "3e33ccb1-7556-4550-aad6-63373967e801",
+      "name": "ST_Method_under_XML",
+      "type_guid": "f8a58466-d7f6-439f-bbb8-d4600e41d099",
+      "parent_guid": "895fdfa9-7e1a-4685-ada9-9b704c3c072a",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\02_FunctionalBlock\\FBD_FunctionBlock.ST_Method_under_XML.xml",
+      "hash": "64813d6289c2cc23b4c205ff8c0315fdaf981ad0",
+      "projection_paths": [
+        "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\02_FunctionalBlock\\FBD_FunctionBlock.ST_Method_under_XML.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\02_FunctionalBlock\\FBD_FunctionBlock.ST_Method_under_XML.st": "6b4632011f87a7017609c5b25dedc85e35090500"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\FBD_Application\\03_Object_POU_FBD\\02_FunctionalBlock\\FBD_FunctionBlock.ST_Method_under_XML.st": false
+      }
+    },
+    {
+      "guid": "b225677a-b018-4087-a1d0-c75aba3d0a63",
+      "name": "Get",
+      "type_guid": "792f2eb6-721e-4e64-ba20-bc98351056db",
+      "parent_guid": "dbde08cb-21da-41ee-bce3-ba861cfde563",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Get.xml",
+      "hash": "22cdb011938c636518977d347db4e3833aea6bbb",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Get.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Get.st": "f0a0d2cf940d6ed8e0e38032d9f12fafdfc31e7d"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Get.st": false
+      }
+    },
+    {
+      "guid": "0b2f144f-e602-44cd-98c6-24bfb31e8794",
+      "name": "Set",
+      "type_guid": "792f2eb6-721e-4e64-ba20-bc98351056db",
+      "parent_guid": "dbde08cb-21da-41ee-bce3-ba861cfde563",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Set.xml",
+      "hash": "9f53bedcbf32667918fcc5df4e85e50140db1410",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Set.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Set.st": "59b0a72cedbee8313e6c6c25d3a1346cc028a4f7"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\01_PROGRAMM\\ST_PROGRAMM.ST_PROPERTY.Set.st": false
+      }
+    },
+    {
+      "guid": "92decb53-9136-4b39-b87c-85eb27847a54",
+      "name": "Set",
+      "type_guid": "792f2eb6-721e-4e64-ba20-bc98351056db",
+      "parent_guid": "f512aa00-18a4-43e6-88f4-28170c756e41",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Set.xml",
+      "hash": "c79b3cc23c3eb11568a07f884ec8acb97c266c7e",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Set.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Set.st": "f14a072f7da6ca933b98d80d6a4903c438db3e6a"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Set.st": false
+      }
+    },
+    {
+      "guid": "28d45d37-70c4-4cc8-93f2-1bdca018d323",
+      "name": "Get",
+      "type_guid": "792f2eb6-721e-4e64-ba20-bc98351056db",
+      "parent_guid": "f512aa00-18a4-43e6-88f4-28170c756e41",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Get.xml",
+      "hash": "75623a37f01e6a4788025c8c4ac34eef14475ac6",
+      "projection_paths": [
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Get.st"
+      ],
+      "projection_hashes": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Get.st": "458947782a682f78184706d3efdfc326e9a0e0ad"
+      },
+      "projection_import_safe": {
+        "PLC\\PLC Logic\\ST_Application\\03_Object_POU_ST\\02_FunctioanalBlock\\ST_FB.ST_FB_Property.Get.st": false
+      }
+    }
+  ]
+}

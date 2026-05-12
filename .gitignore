@@ -1,5 +1,8 @@
 # cds-text-sync generated state
-.dump/
+.dump/*
+!.dump/
+!.dump/IDE.xml
+!.dump/manifest.json
 .backup/
 .diff/
 sync_debug.log
