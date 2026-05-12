@@ -4,5 +4,8 @@
 # Prevent line ending conversion for CODESYS Structured Text files
 *.st -text
 
+# Keep generated CSV projections stable for offline CI comparisons
+*.csv text eol=lf
+
 # GitHub linguist language detection
 *.st linguist-language=Pascal
