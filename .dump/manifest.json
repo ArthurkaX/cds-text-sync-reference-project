@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T06:45:11",
+  "created": "2026-05-27T07:38:43",
   "view_root": "project-view",
   "ns": "",
   "entries": [
@@ -755,7 +755,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\__VisualizationStyle.xml",
-      "hash": "7d979c238c55c6c92b304bd1cfffdc966738d316"
+      "hash": "0da1e7bee495345109461f933a60eb9012eeacae"
     },
     {
       "guid": "acb9c34f-7ac3-4e19-9ff8-7d5fe9307e9c",
@@ -992,12 +992,12 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.xml",
-      "hash": "522757a89099d1bd8d636c68a2712ccade7080b0",
+      "hash": "0e39f6245469b0e73f5eaf24326f9f9c8521717f",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st"
       ],
       "projection_hashes": {
-        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st": "3ad3fecbafabb9c3775a3158515f9ec442aaed90"
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st": "1032ba50dae6537e28eef3aeab96facf2a1d7093"
       },
       "projection_import_safe": {
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st": false
@@ -1015,12 +1015,12 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.xml",
-      "hash": "6edec5373b9b319195d4d23a11ab12367dd68def",
+      "hash": "84684cf39d05ed8579a62d2d7b3bceec7cf4554a",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st"
       ],
       "projection_hashes": {
-        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st": "54905aec2f9f28c1f65f9d4971cbef459073846a"
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st": "2c3f419c04e64bab01480d8432c2aade112665a6"
       },
       "projection_import_safe": {
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st": false
@@ -1038,12 +1038,12 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.xml",
-      "hash": "936fe3d4abeaa8ae41c369791e49677cef76b085",
+      "hash": "e5f1b2ea84051f83608d8b42b913399f7a31d39e",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st"
       ],
       "projection_hashes": {
-        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st": "268182e8b2956775f4c01893531052d5d8fac069"
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st": "ba17bcc3c894bdfae80c23d5e49c8e22ebd6aea2"
       },
       "projection_import_safe": {
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st": false

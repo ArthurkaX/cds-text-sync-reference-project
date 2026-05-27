@@ -3,6 +3,7 @@
   "application": "CI_CD_Application",
   "start": false,
   "timeout": 20000,
+  "reset": "cold",
   "tests": [
     {
       "name": "FB_Counter — reset value 0",

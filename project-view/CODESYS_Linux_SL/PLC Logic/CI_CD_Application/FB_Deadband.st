@@ -15,7 +15,7 @@ END_VAR
 // --- implementation ---
 
 IF xExecute AND NOT xPrev THEN
-	IF rValue >= -rBand AND rValue <= rBand THEN
+	IF rValue > -rBand AND rValue < rBand THEN
 		rResult := 0.0;
 	ELSE
 		rResult := rValue;

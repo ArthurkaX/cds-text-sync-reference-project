@@ -3,6 +3,7 @@
   "application": "CI_CD_Application",
   "start": false,
   "timeout": 10000,
+  "reset": "cold",
   "tests": [
     {
       "name": "FB_Checksum — 1 XOR 2 XOR 3 = 0",

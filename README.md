@@ -34,7 +34,10 @@ cds-text-sync rp cicd  # run all tests
 | `.test/counter.json` | 3 | FB_Counter_UD: reset, count up, count down ✅ |
 
 All tests use **pass-through calls** in `MAIN` — inputs are written via online API,
-outputs read back after a PLC cycle. Tested with `cds-text-sync v2.5.1`.
+outputs read back after a PLC cycle. Each test plan includes `"reset": "cold"`
+to clear FB memory before the first run, ensuring repeatable results.
+
+Tested with `cds-text-sync v2.5.1`.
 
 See [`cli/cicd-format.md`](https://github.com/ArthurkaX/cds-text-sync/blob/dev/cli/cicd-format.md) for the full format specification.
 
