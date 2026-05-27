@@ -1,0 +1,52 @@
+{
+  "name": "CI/CD — Range Check Test",
+  "application": "CI_CD_Application",
+  "start": false,
+  "timeout": 10000,
+  "tests": [
+    {
+      "name": "FB_RangeCheck — in range",
+      "description": "rValue=5, rMin=0, rMax=10 → xInRange=TRUE",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rValue", "value": 5.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rMin", "value": 0.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rMax", "value": 10.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbRangeCheck.xDone", "expected": true},
+        {"action": "assert", "variable": "MAIN.fbRangeCheck.xInRange", "expected": true},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.xExecute", "value": false}
+      ]
+    },
+    {
+      "name": "FB_RangeCheck — out of range (low)",
+      "description": "rValue=-1, rMin=0, rMax=10 → xInRange=FALSE",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rValue", "value": -1.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rMin", "value": 0.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rMax", "value": 10.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbRangeCheck.xDone", "expected": true},
+        {"action": "assert", "variable": "MAIN.fbRangeCheck.xInRange", "expected": false},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.xExecute", "value": false}
+      ]
+    },
+    {
+      "name": "FB_RangeCheck — out of range (high)",
+      "description": "rValue=11, rMin=0, rMax=10 → xInRange=FALSE",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rValue", "value": 11.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rMin", "value": 0.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.rMax", "value": 10.0},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbRangeCheck.xInRange", "expected": false},
+        {"action": "write", "variable": "MAIN.fbRangeCheck.xExecute", "value": false}
+      ]
+    }
+  ]
+}

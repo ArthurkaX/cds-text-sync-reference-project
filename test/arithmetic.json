@@ -1,0 +1,23 @@
+{
+  "name": "CI/CD Quick Test",
+  "application": "CI_CD_Application",
+  "start": false,
+  "timeout": 10000,
+  "tests": [
+    {
+      "name": "FB_Arithmetic add",
+      "description": "10 + 3 = 13",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbArith.rA", "value": 10.0},
+        {"action": "write", "variable": "MAIN.fbArith.rB", "value": 3.0},
+        {"action": "write", "variable": "MAIN.fbArith.eOp", "value": 0},
+        {"action": "write", "variable": "MAIN.fbArith.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbArith.xDone", "expected": true},
+        {"action": "read", "variable": "MAIN.fbArith.rResult", "expected": 13.0, "tolerance": 0.001},
+        {"action": "write", "variable": "MAIN.fbArith.xExecute", "value": false}
+      ]
+    }
+  ]
+}

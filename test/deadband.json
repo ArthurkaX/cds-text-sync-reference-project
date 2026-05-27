@@ -1,0 +1,48 @@
+{
+  "name": "CI/CD — Deadband Test",
+  "application": "CI_CD_Application",
+  "start": false,
+  "timeout": 10000,
+  "tests": [
+    {
+      "name": "FB_Deadband — inside band → 0",
+      "description": "rValue=2, rBand=5 → inside band → result 0",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbDeadband.rValue", "value": 2.0},
+        {"action": "write", "variable": "MAIN.fbDeadband.rBand", "value": 5.0},
+        {"action": "write", "variable": "MAIN.fbDeadband.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbDeadband.xDone", "expected": true},
+        {"action": "read", "variable": "MAIN.fbDeadband.rResult", "expected": 0.0, "tolerance": 0.001},
+        {"action": "write", "variable": "MAIN.fbDeadband.xExecute", "value": false}
+      ]
+    },
+    {
+      "name": "FB_Deadband — outside band → value",
+      "description": "rValue=10, rBand=5 → outside band → result 10",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbDeadband.rValue", "value": 10.0},
+        {"action": "write", "variable": "MAIN.fbDeadband.rBand", "value": 5.0},
+        {"action": "write", "variable": "MAIN.fbDeadband.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "read", "variable": "MAIN.fbDeadband.rResult", "expected": 10.0, "tolerance": 0.001},
+        {"action": "write", "variable": "MAIN.fbDeadband.xExecute", "value": false}
+      ]
+    },
+    {
+      "name": "FB_Deadband — negative inside band → 0",
+      "description": "rValue=-3, rBand=5 → inside band → result 0",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbDeadband.rValue", "value": -3.0},
+        {"action": "write", "variable": "MAIN.fbDeadband.rBand", "value": 5.0},
+        {"action": "write", "variable": "MAIN.fbDeadband.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "read", "variable": "MAIN.fbDeadband.rResult", "expected": 0.0, "tolerance": 0.001},
+        {"action": "write", "variable": "MAIN.fbDeadband.xExecute", "value": false}
+      ]
+    }
+  ]
+}

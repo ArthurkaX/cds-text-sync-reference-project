@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-11T18:49:34",
+  "created": "2026-05-27T04:24:29",
   "view_root": "project-view",
   "ns": "",
   "entries": [
@@ -29,7 +29,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "POUs\\Project Information.xml",
-      "hash": "0577bcd960f3606bc94f08cb70bf94650d289953"
+      "hash": "0a5afe75a6973207b32cf63983b25e799deace41"
     },
     {
       "guid": "b5430773-3042-47d6-a6d3-28650a6ce532",
@@ -83,7 +83,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\.cds-object.xml",
-      "hash": "3d3c928d77497ad6abb777af4a012a4e08a241a2"
+      "hash": "4d878d9c5c3db267417325cfd380452c3b5ece27"
     },
     {
       "guid": "24efe3a3-86ab-4390-98b0-4cffc427c834",
@@ -100,6 +100,34 @@
       "hash": "1671b595e2731be74091847a6a7681aa39923af8"
     },
     {
+      "guid": "288840a6-b7df-4586-bb39-368daf092c48",
+      "name": "CODESYS_Linux_SL",
+      "type_guid": "225bfe47-7336-4dbc-9419-4105a7c831fa",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\.cds-object.xml",
+      "hash": "d8869fcb3f1776e9bb844c9930cb82800d016d24"
+    },
+    {
+      "guid": "019b784e-5651-4c1e-81ce-3e8cbca47894",
+      "name": "__CoreLoadDeviceTrace",
+      "type_guid": "1c2acac5-35d6-4f83-b11f-df306c83e706",
+      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "PLC\\__CoreLoadDeviceTrace.xml",
+      "hash": "099ce3f3eff0969801c794be56af46596dba57fa"
+    },
+    {
       "guid": "abc265a5-80cb-4724-9c6f-62161985881c",
       "name": "Plc Logic",
       "type_guid": "40b404f9-e5dc-42c6-907f-c89f4a517386",
@@ -111,7 +139,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Plc Logic\\.cds-object.xml",
-      "hash": "f94abd8ce30b03eaa8b8d798cd6110434d355007"
+      "hash": "c25b57007e92449c30d9a3db4f40d9969ae441c2"
     },
     {
       "guid": "d3bb71df-6694-4613-a317-170df7d35ded",
@@ -125,7 +153,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Ethernet_Modbus\\.cds-object.xml",
-      "hash": "762ac510a27f063fe371aa30d90c9542213488c3"
+      "hash": "92bf7cbc1a6cb111b0b5e153bba21900874deaf1"
     },
     {
       "guid": "dde78802-38fa-4169-bf89-c964d5dd263f",
@@ -139,7 +167,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Ethernet_Profinet\\.cds-object.xml",
-      "hash": "b13de64e71a60c9ab72adf2fdf19b778d3238a46"
+      "hash": "0c660ee064ab65e761ee762a277a1648769e4f16"
     },
     {
       "guid": "10fae352-e008-4864-9d06-1052136f31a0",
@@ -153,7 +181,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\EtherCAT_Master\\.cds-object.xml",
-      "hash": "01ced3ee15a8ddbc5c19abbb722e42da1fee5d66"
+      "hash": "42edac7680e3aceefb22b5b48f739a66387eda00"
     },
     {
       "guid": "ae2b108e-049e-4983-84a0-899134befba6",
@@ -167,7 +195,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Modbus_COM_1.xml",
-      "hash": "cfc1cf7304ad5b6b2a7d261ab9fbd11719423433"
+      "hash": "fdad1db8c7d2c1b2e427b3327eaf98d3c1083e9e"
     },
     {
       "guid": "91098784-d2c5-4814-97cb-972f70bb2058",
@@ -181,7 +209,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Modbus_COM\\.cds-object.xml",
-      "hash": "bb796e9b0ca620d66dff949e5f624b8f74200ef5"
+      "hash": "90fe9449744ad639df727d65b1d5111196618ff8"
     },
     {
       "guid": "425cc7bd-6e66-4757-9afb-361509e73723",
@@ -195,7 +223,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\CANbus\\.cds-object.xml",
-      "hash": "6b59a15b9a20919a36608a71c9c33706cb563839"
+      "hash": "78816912d856fc91dc8a6010498a50a60a802c9f"
     },
     {
       "guid": "e69aecbb-9cc1-455b-ae30-d9cb7ac85dbe",
@@ -209,7 +237,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\SoftMotion General Axis Pool.xml",
-      "hash": "8ff7d4987084265f36786d8d16b08d67067e5e6b"
+      "hash": "171a171a86c7babfcc0023ebbe324d8bb97dde10"
     },
     {
       "guid": "078ec96e-ea88-4e68-9141-65ccce6f8586",
@@ -224,6 +252,34 @@
       },
       "xml_path": "CODESYS_HMI\\Plc Logic\\.cds-object.xml",
       "hash": "0534ed9ebcfc0cfd32dd3a758f9f3fbcd29f25d5"
+    },
+    {
+      "guid": "72feeece-32eb-4b17-b210-c7673bfdbb9d",
+      "name": "Plc Logic",
+      "type_guid": "40b404f9-e5dc-42c6-907f-c89f4a517386",
+      "parent_guid": "288840a6-b7df-4586-bb39-368daf092c48",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\Plc Logic\\.cds-object.xml",
+      "hash": "5b76621a7c3efccb4d5bfa55420cd0755830199b"
+    },
+    {
+      "guid": "3d50daf1-b939-4c5c-9283-329d63043508",
+      "name": "SoftMotion General Axis Pool",
+      "type_guid": "e9159722-55bc-49e5-8034-fbd278ef718f",
+      "parent_guid": "288840a6-b7df-4586-bb39-368daf092c48",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\SoftMotion General Axis Pool.xml",
+      "hash": "489de9928a14b55bccd46701ed95549cf4076931"
     },
     {
       "guid": "4f599365-b37f-4f7e-9ace-264406373425",
@@ -364,6 +420,20 @@
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\.cds-object.xml",
       "hash": "92612588b5cbfd398322a2f2dcb54c2d8a127f01"
+    },
+    {
+      "guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "name": "CI_CD_Application",
+      "type_guid": "639b491f-5557-464c-af91-1471bac9f549",
+      "parent_guid": "72feeece-32eb-4b17-b210-c7673bfdbb9d",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\.cds-object.xml",
+      "hash": "f97c9f6b03d2c16d12fa2526856a2d612f4b5243"
     },
     {
       "guid": "30d07b92-0ade-4ea3-b304-9044219a6b84",
@@ -699,7 +769,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\__VisualizationStyle.xml",
-      "hash": "e57f40faedbb2484e4bfb99daa5c0910c2b580f5"
+      "hash": "6394e82b4a459ff49f8da9e9641b97d37e34fdc0"
     },
     {
       "guid": "acb9c34f-7ac3-4e19-9ff8-7d5fe9307e9c",
@@ -784,6 +854,214 @@
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\Symbols.xml",
       "hash": "fa757c4358735677f202ae01a1fe67d12e60c916"
+    },
+    {
+      "guid": "cb79077c-3776-473f-9853-073fdbfe83e2",
+      "name": "Library Manager",
+      "type_guid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\Library Manager.xml",
+      "hash": "bc6b5ad9a3221b1fb46dc2ebafe87b5b3f86a285"
+    },
+    {
+      "guid": "e1af366f-f6af-4c5e-8a75-75b007c6e499",
+      "name": "Task Configuration",
+      "type_guid": "ae1de277-a207-4a28-9efb-456c06bd52f3",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\Task Configuration\\.cds-object.xml",
+      "hash": "1550bc744824cd4239a976c47aeed39c7df21bc4"
+    },
+    {
+      "guid": "7f92afc2-786e-469a-9fd9-0abf34be3eaa",
+      "name": "MAIN",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.xml",
+      "hash": "faa64cdeaadd20ccea212343493dcbe7971389bd",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st": "e5a26e1d651eb8efe7973c6c1bb2ef5f463e9a89"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st": false
+      }
+    },
+    {
+      "guid": "e5847d15-0019-4409-92b4-e530239598e8",
+      "name": "FunctionBlocks",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\.cds-object.xml",
+      "hash": "879674d74f22ac8e08ea1a0262f54a1c79324bcd"
+    },
+    {
+      "guid": "9ad1c68e-cac6-413e-9cc1-d328c812839a",
+      "name": "Functions",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\Functions.xml",
+      "hash": "f61f7482f3e1722eeda1671cb7fbe7d0f8b97352"
+    },
+    {
+      "guid": "d5f9b35c-4584-4f9a-bae9-2695785333bf",
+      "name": "GVL",
+      "type_guid": "738bea1e-99bb-4f04-90bb-a7a567e74e3a",
+      "parent_guid": null,
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\GVL\\.cds-object.xml",
+      "hash": "52148c2d1ffe017621dd4e6c788aeb84cfa15efc"
+    },
+    {
+      "guid": "aff216a5-ca19-4891-bd31-6c09695385e7",
+      "name": "FB_Arithmetic",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Arithmetic.xml",
+      "hash": "a78f49a65bcb470952e17fa35fb11d4289252247",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Arithmetic.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Arithmetic.st": "9a9650486e547fe4c3a0cf56f17c0c0e5164ded2"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Arithmetic.st": false
+      }
+    },
+    {
+      "guid": "156508f5-419d-4eb9-b5b2-b20fe303bde4",
+      "name": "FB_Checksum",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Checksum.xml",
+      "hash": "fe9c732b43d246eb313985a3acb4b2aff069212a",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Checksum.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Checksum.st": "c816a71638d13e1e07136cc83576774c3a904222"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Checksum.st": false
+      }
+    },
+    {
+      "guid": "3a4b7cd6-2063-4ce8-963b-213f55a9bcc4",
+      "name": "FB_Deadband",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.xml",
+      "hash": "1cf45d043597750c9016ab27433f4f79b3bf2998",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st": "3ad3fecbafabb9c3775a3158515f9ec442aaed90"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st": false
+      }
+    },
+    {
+      "guid": "d4eb0552-041e-45ce-85d1-bcfcf124d85c",
+      "name": "FB_RangeCheck",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.xml",
+      "hash": "949011636c75ad7658acf72e8df6b75d1f9ebcd3",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st": "54905aec2f9f28c1f65f9d4971cbef459073846a"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st": false
+      }
+    },
+    {
+      "guid": "e4dff808-1f03-4a63-8a24-f04134e04bdc",
+      "name": "FB_Scale",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.xml",
+      "hash": "5f8dba1e1d81a1ce4e4f4cebc26038cd3328a2a5",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st": "268182e8b2956775f4c01893531052d5d8fac069"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st": false
+      }
     },
     {
       "guid": "81c01a76-bace-421e-842b-0f8fb0e6c816",
@@ -1668,6 +1946,135 @@
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\MFL_VISU\\Screen_1.xml",
       "hash": "b0e7d49beb43eb4385d7bdd2cb37f4f96f9d14b9"
+    },
+    {
+      "guid": "bfe63536-29f6-4413-b1c4-78c9b2d3d84a",
+      "name": "Task",
+      "type_guid": "98a2708a-9b18-4f31-82ed-a1465b24fa2d",
+      "parent_guid": "e1af366f-f6af-4c5e-8a75-75b007c6e499",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\Task Configuration\\Task.xml",
+      "hash": "36f413e8267bfcf9d1b00b183d437ec24da58487"
+    },
+    {
+      "guid": "8776fe5c-d7ca-4603-87d5-5c570e4452bf",
+      "name": "FB_Counter_UD",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Counter_UD.xml",
+      "hash": "8ee9b583862c0008eba8b415a861a6edbdf8e51e",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Counter_UD.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Counter_UD.st": "575e5efac64515cc63306bd822faebf94379040c"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Counter_UD.st": false
+      }
+    },
+    {
+      "guid": "3a74b82d-a659-4269-960a-406277adf694",
+      "name": "FB_Delay",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Delay.xml",
+      "hash": "cda5843f181ba7475880606300aeb947f14dbaa2",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Delay.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Delay.st": "f6241c3e533f7e2b8ed50901f0cb6bba767cd1e6"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Delay.st": false
+      }
+    },
+    {
+      "guid": "725f1709-11b5-4ed4-8176-84f23abc891d",
+      "name": "FB_PulseTrain",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_PulseTrain.xml",
+      "hash": "a6bb68a7e033cc7b69ebf969113c0888d7604143",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_PulseTrain.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_PulseTrain.st": "a84015565b2d282c9d612d74c4a84ce959f98542"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_PulseTrain.st": false
+      }
+    },
+    {
+      "guid": "5124940b-b667-4ed9-866d-643521cf4196",
+      "name": "FB_TrafficLight",
+      "type_guid": "6f9dac99-8de1-4efc-8465-68ac443b7d08",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_TrafficLight.xml",
+      "hash": "7ffff309bd75c887ee36d8d52759b9fcc5779235",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_TrafficLight.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_TrafficLight.st": "c188322087871109936f1fe8b200fa158b7eb54c"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_TrafficLight.st": false
+      }
+    },
+    {
+      "guid": "aee0be1f-6bd5-4237-ab3d-412d498ad937",
+      "name": "GVL_Test",
+      "type_guid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+      "parent_guid": "2074f38e-df96-4c1d-9e20-4a54d4ecd8e0",
+      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
+      "structured_view_single_attrs": {
+        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
+        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
+        "Method": "IArchivable"
+      },
+      "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\GVL\\GVL_Test.xml",
+      "hash": "f72d8e7bd61e89279cc4b95aefec5f8ec5a98be4",
+      "projection_paths": [
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\GVL\\GVL_Test.st"
+      ],
+      "projection_hashes": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\GVL\\GVL_Test.st": "4cdcaf3535044f0e0659cfe7cf35f180fba585b8"
+      },
+      "projection_import_safe": {
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\GVL\\GVL_Test.st": false
+      }
     },
     {
       "guid": "5d544d57-6854-4c34-819c-69f8b9ff1e84",

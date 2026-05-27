@@ -1,7 +1,7 @@
 {
   "backup_retention_count": 10, 
   "layout": "project-view", 
-  "pre_import_backup_enabled": false, 
+  "pre_import_backup_enabled": true, 
   "profile": "default", 
   "projections": {
     "dut_st": {

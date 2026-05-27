@@ -1,0 +1,51 @@
+{
+  "name": "CI/CD — Checksum Test",
+  "application": "CI_CD_Application",
+  "start": false,
+  "timeout": 10000,
+  "tests": [
+    {
+      "name": "FB_Checksum — 1 XOR 2 XOR 3 = 0",
+      "description": "BYTE xor: 16#01 xor 16#02 xor 16#03 = 16#00",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbChecksum.bA", "value": 1},
+        {"action": "write", "variable": "MAIN.fbChecksum.bB", "value": 2},
+        {"action": "write", "variable": "MAIN.fbChecksum.bC", "value": 3},
+        {"action": "write", "variable": "MAIN.fbChecksum.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbChecksum.xDone", "expected": true},
+        {"action": "read", "variable": "MAIN.fbChecksum.bResult", "expected": 0},
+        {"action": "write", "variable": "MAIN.fbChecksum.xExecute", "value": false}
+      ]
+    },
+    {
+      "name": "FB_Checksum — 255 XOR 0 XOR 255 = 0",
+      "description": "16#FF xor 16#00 xor 16#FF = 16#00",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbChecksum.bA", "value": 255},
+        {"action": "write", "variable": "MAIN.fbChecksum.bB", "value": 0},
+        {"action": "write", "variable": "MAIN.fbChecksum.bC", "value": 255},
+        {"action": "write", "variable": "MAIN.fbChecksum.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "read", "variable": "MAIN.fbChecksum.bResult", "expected": 0},
+        {"action": "write", "variable": "MAIN.fbChecksum.xExecute", "value": false}
+      ]
+    },
+    {
+      "name": "FB_Checksum — 128 XOR 64 XOR 192 = 0",
+      "description": "16#80 xor 16#40 xor 16#C0 = 16#00",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbChecksum.bA", "value": 128},
+        {"action": "write", "variable": "MAIN.fbChecksum.bB", "value": 64},
+        {"action": "write", "variable": "MAIN.fbChecksum.bC", "value": 192},
+        {"action": "write", "variable": "MAIN.fbChecksum.xExecute", "value": true},
+        {"action": "wait", "ms": 200},
+        {"action": "read", "variable": "MAIN.fbChecksum.bResult", "expected": 0},
+        {"action": "write", "variable": "MAIN.fbChecksum.xExecute", "value": false}
+      ]
+    }
+  ]
+}

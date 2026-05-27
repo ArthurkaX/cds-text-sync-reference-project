@@ -1,0 +1,70 @@
+{
+  "name": "CI/CD — Counter UD Test",
+  "application": "CI_CD_Application",
+  "start": false,
+  "timeout": 20000,
+  "tests": [
+    {
+      "name": "FB_Counter — reset value 0",
+      "description": "Reset counter, check uiValue = 0",
+      "timeout": 5000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbCounter.xReset", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "read", "variable": "MAIN.fbCounter.uiValue", "expected": 0},
+        {"action": "write", "variable": "MAIN.fbCounter.xReset", "value": false}
+      ]
+    },
+    {
+      "name": "FB_Counter — count up 3 times",
+      "description": "Up → Up → Up, check after each",
+      "timeout": 10000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbCounter.xReset", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xReset", "value": false},
+        {"action": "wait", "ms": 50},
+
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": false},
+        {"action": "read", "variable": "MAIN.fbCounter.uiValue", "expected": 1},
+
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": false},
+        {"action": "read", "variable": "MAIN.fbCounter.uiValue", "expected": 2},
+
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "read", "variable": "MAIN.fbCounter.uiValue", "expected": 3}
+      ]
+    },
+    {
+      "name": "FB_Counter — count down",
+      "description": "Count up 2, then down 1",
+      "timeout": 10000,
+      "steps": [
+        {"action": "write", "variable": "MAIN.fbCounter.xReset", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xReset", "value": false},
+        {"action": "wait", "ms": 50},
+
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": false},
+        {"action": "wait", "ms": 50},
+
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xUp", "value": false},
+        {"action": "read", "variable": "MAIN.fbCounter.uiValue", "expected": 2},
+
+        {"action": "write", "variable": "MAIN.fbCounter.xDown", "value": true},
+        {"action": "wait", "ms": 100},
+        {"action": "write", "variable": "MAIN.fbCounter.xDown", "value": false},
+        {"action": "read", "variable": "MAIN.fbCounter.uiValue", "expected": 1}
+      ]
+    }
+  ]
+}

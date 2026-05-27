@@ -1,6 +1,6 @@
 # CODESYS Compatibility Examples
 
-This repository is designed to collect examples of CODESYS blocks and objects that **cannot be exported or imported** correctly using `cds-text-sync` (v2.0.1+, XML-First) or standard CODESYS mechanisms.
+This repository is designed to collect examples of CODESYS blocks and objects that **cannot be exported or imported** correctly using `cds-text-sync` (v2.5.1, reverse-pipe daemon) or standard CODESYS mechanisms.
 
 It serves as a companion to the main **[cds-text-sync](https://github.com/ArthurkaX/cds-text-sync)** tool — hosting test cases, edge cases, and problematic objects for debugging automation workflows and understanding the limitations of the CODESYS scripting API.
 
@@ -14,6 +14,29 @@ The main goal is to build a database of "problematic" objects that fail round-tr
 - and **Compared** (IDE vs original) with zero differences,
 
 …it belongs here.
+
+## 🧪 CI/CD Test Suite
+
+This project includes a **CI/CD test suite** in the `test/` directory. Test plans are JSON files executed via:
+
+```bash
+cds-text-sync rp cicd --file <name>.json
+cds-text-sync rp cicd  # run all tests
+```
+
+| File | Tests | Description |
+|------|-------|-------------|
+| `test/arithmetic.json` | 1 | FB_Arithmetic: 10 + 3 = 13 ✅ |
+| `test/scale.json` | 3 | FB_Scale: scaling, clamp low/high ✅ |
+| `test/deadband.json` | 3 | FB_Deadband: inside/outside band ✅ |
+| `test/rangecheck.json` | 3 | FB_RangeCheck: in/out of range ✅ |
+| `test/checksum.json` | 3 | FB_Checksum: XOR operations ✅ |
+| `test/counter.json` | 3 | FB_Counter_UD: reset, count up, count down ✅ |
+
+All tests use **pass-through calls** in `MAIN` — inputs are written via online API,
+outputs read back after a PLC cycle. Tested with `cds-text-sync v2.5.1`.
+
+See [`cli/cicd-format.md`](https://github.com/ArthurkaX/cds-text-sync/blob/dev/cli/cicd-format.md) for the full format specification.
 
 ## 🔍 External Diffing
 

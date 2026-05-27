@@ -6,4 +6,6 @@
 .backup/
 .diff/
 sync_debug.log
+compare.log
 build.log
+build-report*.json

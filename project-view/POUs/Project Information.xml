@@ -8,16 +8,16 @@
         <Dictionary Type="{2c41fa04-1834-41c1-816e-303c7aa2c05b}" Name="Properties" />
         <Single Name="TypeGuid" Type="System.Guid">085afe48-c5d8-4ea5-ab0d-b35701fa6009</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639137744902493195</Single>
+        <Single Name="Timestamp" Type="long">639154478011244508</Single>
       </Single>
       <Single Name="Object" Type="{085afe48-c5d8-4ea5-ab0d-b35701fa6009}" Method="IArchivable">
         <Dictionary Type="System.Collections.Hashtable" Name="Properties">
           <Entry>
             <Key>
-              <Single Type="string">Project</Single>
+              <Single Type="string">cds-sync-save-after-import</Single>
             </Key>
             <Value>
-              <Single Type="string" />
+              <Single Type="string">True</Single>
             </Value>
           </Entry>
           <Entry>
@@ -46,10 +46,26 @@
           </Entry>
           <Entry>
             <Key>
+              <Single Type="string">cds-sync-backup-binary</Single>
+            </Key>
+            <Value>
+              <Single Type="string">True</Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
               <Single Type="string">cds-sync-export-xml</Single>
             </Key>
             <Value>
               <Single Type="string">True</Single>
+            </Value>
+          </Entry>
+          <Entry>
+            <Key>
+              <Single Type="string">Project</Single>
+            </Key>
+            <Value>
+              <Single Type="string" />
             </Value>
           </Entry>
           <Entry>
@@ -94,10 +110,10 @@
           </Entry>
           <Entry>
             <Key>
-              <Single Type="string">cds-sync-save-after-import</Single>
+              <Single Type="string">cds-sync-folder</Single>
             </Key>
             <Value>
-              <Single Type="string">True</Single>
+              <Single Type="string">C:\Workspace\Active\cds-text-sync-reference-project</Single>
             </Value>
           </Entry>
           <Entry>
@@ -118,18 +134,10 @@
           </Entry>
           <Entry>
             <Key>
-              <Single Type="string">IsStorageFormatPinned</Single>
+              <Single Type="string">cds-daemon-config</Single>
             </Key>
             <Value>
-              <Single Type="bool">False</Single>
-            </Value>
-          </Entry>
-          <Entry>
-            <Key>
-              <Single Type="string">cds-sync-folder</Single>
-            </Key>
-            <Value>
-              <Single Type="string">C:\Workspace\Active\cds-text-sync-reference-project</Single>
+              <Single Type="string">{"poll_ms": 10, "deny": ["reset_plc", "reset_plc --kind origin", "create_boot_app", "plc_upload", "source_download"]}</Single>
             </Value>
           </Entry>
           <Entry>
@@ -142,10 +150,10 @@
           </Entry>
           <Entry>
             <Key>
-              <Single Type="string">cds-sync-backup-binary</Single>
+              <Single Type="string">IsStorageFormatPinned</Single>
             </Key>
             <Value>
-              <Single Type="string">True</Single>
+              <Single Type="bool">False</Single>
             </Value>
           </Entry>
         </Dictionary>
