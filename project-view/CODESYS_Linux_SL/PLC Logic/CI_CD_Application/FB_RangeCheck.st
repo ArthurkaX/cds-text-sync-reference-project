@@ -9,19 +9,13 @@ VAR_OUTPUT
 	xInRange : BOOL;
 	xDone : BOOL;
 END_VAR
-VAR
-	xPrev : BOOL;
-END_VAR
 
 // --- implementation ---
 
-IF xExecute AND NOT xPrev THEN
+IF xExecute THEN
 	xInRange := rValue >= rMin AND rValue <= rMax;
 	xDone := TRUE;
-END_IF
-
-IF NOT xExecute THEN
+ELSE
 	xDone := FALSE;
+	xInRange := FALSE;
 END_IF
-
-xPrev := xExecute;

@@ -9,6 +9,8 @@
       "description": "Scale 0..1000 raw to 0..100 scaled",
       "timeout": 5000,
       "steps": [
+        {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": false},
+        {"action": "wait", "ms": 100},
         {"action": "write", "variable": "MAIN.fbScale.rRaw", "value": 400.0},
         {"action": "write", "variable": "MAIN.fbScale.rRawMin", "value": 0.0},
         {"action": "write", "variable": "MAIN.fbScale.rRawMax", "value": 1000.0},
@@ -26,6 +28,8 @@
       "description": "Raw below min clamps to scaled min",
       "timeout": 5000,
       "steps": [
+        {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": false},
+        {"action": "wait", "ms": 100},
         {"action": "write", "variable": "MAIN.fbScale.rRaw", "value": -100.0},
         {"action": "write", "variable": "MAIN.fbScale.rRawMin", "value": 0.0},
         {"action": "write", "variable": "MAIN.fbScale.rRawMax", "value": 1000.0},
@@ -33,6 +37,7 @@
         {"action": "write", "variable": "MAIN.fbScale.rScaledMax", "value": 100.0},
         {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": true},
         {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbScale.xDone", "expected": true},
         {"action": "read", "variable": "MAIN.fbScale.rResult", "expected": 0.0, "tolerance": 0.001},
         {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": false}
       ]
@@ -42,6 +47,8 @@
       "description": "Raw above max clamps to scaled max",
       "timeout": 5000,
       "steps": [
+        {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": false},
+        {"action": "wait", "ms": 100},
         {"action": "write", "variable": "MAIN.fbScale.rRaw", "value": 1500.0},
         {"action": "write", "variable": "MAIN.fbScale.rRawMin", "value": 0.0},
         {"action": "write", "variable": "MAIN.fbScale.rRawMax", "value": 1000.0},
@@ -49,6 +56,8 @@
         {"action": "write", "variable": "MAIN.fbScale.rScaledMax", "value": 100.0},
         {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": true},
         {"action": "wait", "ms": 200},
+        {"action": "assert", "variable": "MAIN.fbScale.xDone", "expected": true},
+        {"action": "assert", "variable": "MAIN.fbScale.xError", "expected": false},
         {"action": "read", "variable": "MAIN.fbScale.rResult", "expected": 100.0, "tolerance": 0.001},
         {"action": "write", "variable": "MAIN.fbScale.xExecute", "value": false}
       ]

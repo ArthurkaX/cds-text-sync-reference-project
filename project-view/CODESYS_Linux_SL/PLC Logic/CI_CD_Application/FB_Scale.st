@@ -10,27 +10,26 @@ END_VAR
 VAR_OUTPUT
 	rResult : REAL;
 	xDone : BOOL;
-END_VAR
-VAR
-	xPrev : BOOL;
+	xError : BOOL;
 END_VAR
 
 // --- implementation ---
 
-IF xExecute AND NOT xPrev THEN
+IF xExecute THEN
 	IF rRawMax <> rRawMin THEN
+		xError := FALSE;
 		rResult := rScaledMin + (rRaw - rRawMin) / (rRawMax - rRawMin) * (rScaledMax - rScaledMin);
+
+		// Clamp (handle both normal and reversed scaled ranges)
+		IF rResult < rScaledMin THEN rResult := rScaledMin; END_IF
+		IF rResult > rScaledMax THEN rResult := rScaledMax; END_IF
 	ELSE
 		rResult := rScaledMin;
+		xError   := TRUE;
 	END_IF
-	// Clamp
-	IF rResult < rScaledMin THEN rResult := rScaledMin; END_IF
-	IF rResult > rScaledMax THEN rResult := rScaledMax; END_IF
+
 	xDone := TRUE;
+ELSE
+	xDone  := FALSE;
+	xError := FALSE;
 END_IF
-
-IF NOT xExecute THEN
-	xDone := FALSE;
-END_IF
-
-xPrev := xExecute;

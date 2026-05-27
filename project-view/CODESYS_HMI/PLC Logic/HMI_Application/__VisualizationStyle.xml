@@ -22,7 +22,7 @@
         </Dictionary>
         <Single Name="TypeGuid" Type="System.Guid">8e687a04-7ca7-42d3-be06-fcbda676c5ef</Single>
         <Null Name="EmbeddedTypeGuids" />
-        <Single Name="Timestamp" Type="long">639154572075778723</Single>
+        <Single Name="Timestamp" Type="long">639154610962903891</Single>
       </Single>
       <Single Name="Object" Type="{8e687a04-7ca7-42d3-be06-fcbda676c5ef}" Method="IArchivable">
         <Single Name="UniqueIdGenerator" Type="string">177</Single>

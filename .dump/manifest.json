@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T05:54:37",
+  "created": "2026-05-27T06:45:11",
   "view_root": "project-view",
   "ns": "",
   "entries": [
@@ -755,7 +755,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\__VisualizationStyle.xml",
-      "hash": "78152f85ac2233a90bfcc65812223c1816c9d8ec"
+      "hash": "7d979c238c55c6c92b304bd1cfffdc966738d316"
     },
     {
       "guid": "acb9c34f-7ac3-4e19-9ff8-7d5fe9307e9c",
