@@ -1,5 +1,5 @@
 {
-  "created": "2026-05-27T04:24:29",
+  "created": "2026-05-27T05:54:37",
   "view_root": "project-view",
   "ns": "",
   "entries": [
@@ -83,7 +83,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\.cds-object.xml",
-      "hash": "4d878d9c5c3db267417325cfd380452c3b5ece27"
+      "hash": "08572ad21524ff1a832dcaf50eff442833a2ca61"
     },
     {
       "guid": "24efe3a3-86ab-4390-98b0-4cffc427c834",
@@ -114,20 +114,6 @@
       "hash": "d8869fcb3f1776e9bb844c9930cb82800d016d24"
     },
     {
-      "guid": "019b784e-5651-4c1e-81ce-3e8cbca47894",
-      "name": "__CoreLoadDeviceTrace",
-      "type_guid": "1c2acac5-35d6-4f83-b11f-df306c83e706",
-      "parent_guid": "28e95b78-65b6-4b06-8b3e-d6e63f4f3d81",
-      "structured_view_guid": "{d9b2b2cc-ea99-4c3b-aa42-1e5c49e65b84}",
-      "structured_view_single_attrs": {
-        "{http://www.w3.org/XML/1998/namespace}space": "preserve",
-        "Type": "{3daac5e4-660e-42e4-9cea-3711b98bfb63}",
-        "Method": "IArchivable"
-      },
-      "xml_path": "PLC\\__CoreLoadDeviceTrace.xml",
-      "hash": "099ce3f3eff0969801c794be56af46596dba57fa"
-    },
-    {
       "guid": "abc265a5-80cb-4724-9c6f-62161985881c",
       "name": "Plc Logic",
       "type_guid": "40b404f9-e5dc-42c6-907f-c89f4a517386",
@@ -139,7 +125,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Plc Logic\\.cds-object.xml",
-      "hash": "c25b57007e92449c30d9a3db4f40d9969ae441c2"
+      "hash": "f94abd8ce30b03eaa8b8d798cd6110434d355007"
     },
     {
       "guid": "d3bb71df-6694-4613-a317-170df7d35ded",
@@ -153,7 +139,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Ethernet_Modbus\\.cds-object.xml",
-      "hash": "92bf7cbc1a6cb111b0b5e153bba21900874deaf1"
+      "hash": "762ac510a27f063fe371aa30d90c9542213488c3"
     },
     {
       "guid": "dde78802-38fa-4169-bf89-c964d5dd263f",
@@ -167,7 +153,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Ethernet_Profinet\\.cds-object.xml",
-      "hash": "0c660ee064ab65e761ee762a277a1648769e4f16"
+      "hash": "b13de64e71a60c9ab72adf2fdf19b778d3238a46"
     },
     {
       "guid": "10fae352-e008-4864-9d06-1052136f31a0",
@@ -181,7 +167,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\EtherCAT_Master\\.cds-object.xml",
-      "hash": "42edac7680e3aceefb22b5b48f739a66387eda00"
+      "hash": "01ced3ee15a8ddbc5c19abbb722e42da1fee5d66"
     },
     {
       "guid": "ae2b108e-049e-4983-84a0-899134befba6",
@@ -195,7 +181,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Modbus_COM_1.xml",
-      "hash": "fdad1db8c7d2c1b2e427b3327eaf98d3c1083e9e"
+      "hash": "cfc1cf7304ad5b6b2a7d261ab9fbd11719423433"
     },
     {
       "guid": "91098784-d2c5-4814-97cb-972f70bb2058",
@@ -209,7 +195,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\Modbus_COM\\.cds-object.xml",
-      "hash": "90fe9449744ad639df727d65b1d5111196618ff8"
+      "hash": "bb796e9b0ca620d66dff949e5f624b8f74200ef5"
     },
     {
       "guid": "425cc7bd-6e66-4757-9afb-361509e73723",
@@ -223,7 +209,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\CANbus\\.cds-object.xml",
-      "hash": "78816912d856fc91dc8a6010498a50a60a802c9f"
+      "hash": "6b59a15b9a20919a36608a71c9c33706cb563839"
     },
     {
       "guid": "e69aecbb-9cc1-455b-ae30-d9cb7ac85dbe",
@@ -237,7 +223,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "PLC\\SoftMotion General Axis Pool.xml",
-      "hash": "171a171a86c7babfcc0023ebbe324d8bb97dde10"
+      "hash": "8ff7d4987084265f36786d8d16b08d67067e5e6b"
     },
     {
       "guid": "078ec96e-ea88-4e68-9141-65ccce6f8586",
@@ -769,7 +755,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_HMI\\PLC Logic\\HMI_Application\\__VisualizationStyle.xml",
-      "hash": "6394e82b4a459ff49f8da9e9641b97d37e34fdc0"
+      "hash": "78152f85ac2233a90bfcc65812223c1816c9d8ec"
     },
     {
       "guid": "acb9c34f-7ac3-4e19-9ff8-7d5fe9307e9c",
@@ -895,12 +881,12 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.xml",
-      "hash": "faa64cdeaadd20ccea212343493dcbe7971389bd",
+      "hash": "aa43b0afb36380da3708e2d4e361489f45c6a67d",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st"
       ],
       "projection_hashes": {
-        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st": "e5a26e1d651eb8efe7973c6c1bb2ef5f463e9a89"
+        "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st": "a2229e2ab8bc0381f7e7cd7acaf854fb2b3fab4c"
       },
       "projection_import_safe": {
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\MAIN.st": false
@@ -960,7 +946,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Arithmetic.xml",
-      "hash": "a78f49a65bcb470952e17fa35fb11d4289252247",
+      "hash": "51aa73e9d5a1066b5be2743fbcf1532605e273d3",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Arithmetic.st"
       ],
@@ -983,7 +969,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Checksum.xml",
-      "hash": "fe9c732b43d246eb313985a3acb4b2aff069212a",
+      "hash": "c61e7a0262fe271a937c46a33e26274542aafa9f",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Checksum.st"
       ],
@@ -1006,7 +992,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.xml",
-      "hash": "1cf45d043597750c9016ab27433f4f79b3bf2998",
+      "hash": "522757a89099d1bd8d636c68a2712ccade7080b0",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Deadband.st"
       ],
@@ -1029,7 +1015,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.xml",
-      "hash": "949011636c75ad7658acf72e8df6b75d1f9ebcd3",
+      "hash": "6edec5373b9b319195d4d23a11ab12367dd68def",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_RangeCheck.st"
       ],
@@ -1052,7 +1038,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.xml",
-      "hash": "5f8dba1e1d81a1ce4e4f4cebc26038cd3328a2a5",
+      "hash": "936fe3d4abeaa8ae41c369791e49677cef76b085",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FB_Scale.st"
       ],
@@ -1973,7 +1959,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Counter_UD.xml",
-      "hash": "8ee9b583862c0008eba8b415a861a6edbdf8e51e",
+      "hash": "06b1c35500785d45df1c5ae19ecd29139157b081",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Counter_UD.st"
       ],
@@ -1996,7 +1982,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Delay.xml",
-      "hash": "cda5843f181ba7475880606300aeb947f14dbaa2",
+      "hash": "10c76c3fb7943149ea007d1dc63bb9bc8ec684b0",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_Delay.st"
       ],
@@ -2019,7 +2005,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_PulseTrain.xml",
-      "hash": "a6bb68a7e033cc7b69ebf969113c0888d7604143",
+      "hash": "ab88e280af343b1914f9e49ffe46d4ec236326d3",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_PulseTrain.st"
       ],
@@ -2042,7 +2028,7 @@
         "Method": "IArchivable"
       },
       "xml_path": "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_TrafficLight.xml",
-      "hash": "7ffff309bd75c887ee36d8d52759b9fcc5779235",
+      "hash": "0074b6d4cce0d89fa8d24df25cd1e32c2c7fe63a",
       "projection_paths": [
         "CODESYS_Linux_SL\\PLC Logic\\CI_CD_Application\\FunctionBlocks\\FB_TrafficLight.st"
       ],

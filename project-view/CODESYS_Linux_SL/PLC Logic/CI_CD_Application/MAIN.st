@@ -1,6 +1,6 @@
 PROGRAM MAIN
 VAR
-	// CI/CD test instances — variables visible via read_variable/write_variable
+	// CI/CD test instances â variables visible via read_variable/write_variable
 	fbArith : FB_Arithmetic;
 	fbScale : FB_Scale;
 	fbDeadband : FB_Deadband;

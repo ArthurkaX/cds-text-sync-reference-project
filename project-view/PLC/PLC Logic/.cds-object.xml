@@ -15,6 +15,6 @@
       <Array Name="Path" Type="string">
         <Single Type="string">PLC</Single>
       </Array>
-      <Single Name="Index" Type="int">1</Single>
+      <Single Name="Index" Type="int">0</Single>
     </Single>
     
