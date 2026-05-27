@@ -17,7 +17,7 @@ The main goal is to build a database of "problematic" objects that fail round-tr
 
 ## 🧪 CI/CD Test Suite
 
-This project includes a **CI/CD test suite** in the `test/` directory. Test plans are JSON files executed via:
+This project includes a **CI/CD test suite** in the `.test/` directory. Test plans are JSON files executed via:
 
 ```bash
 cds-text-sync rp cicd --file <name>.json
@@ -26,12 +26,12 @@ cds-text-sync rp cicd  # run all tests
 
 | File | Tests | Description |
 |------|-------|-------------|
-| `test/arithmetic.json` | 1 | FB_Arithmetic: 10 + 3 = 13 ✅ |
-| `test/scale.json` | 3 | FB_Scale: scaling, clamp low/high ✅ |
-| `test/deadband.json` | 3 | FB_Deadband: inside/outside band ✅ |
-| `test/rangecheck.json` | 3 | FB_RangeCheck: in/out of range ✅ |
-| `test/checksum.json` | 3 | FB_Checksum: XOR operations ✅ |
-| `test/counter.json` | 3 | FB_Counter_UD: reset, count up, count down ✅ |
+| `.test/arithmetic.json` | 1 | FB_Arithmetic: 10 + 3 = 13 ✅ |
+| `.test/scale.json` | 3 | FB_Scale: scaling, clamp low/high ✅ |
+| `.test/deadband.json` | 3 | FB_Deadband: inside/outside band ✅ |
+| `.test/rangecheck.json` | 3 | FB_RangeCheck: in/out of range ✅ |
+| `.test/checksum.json` | 3 | FB_Checksum: XOR operations ✅ |
+| `.test/counter.json` | 3 | FB_Counter_UD: reset, count up, count down ✅ |
 
 All tests use **pass-through calls** in `MAIN` — inputs are written via online API,
 outputs read back after a PLC cycle. Tested with `cds-text-sync v2.5.1`.
